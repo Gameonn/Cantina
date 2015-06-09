@@ -1,0 +1,1 @@
+[04-Mar-2015 00:36:16 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 4

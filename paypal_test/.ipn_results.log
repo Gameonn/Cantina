@@ -1,0 +1,3953 @@
+[02/27/2015 12:12 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0011504724 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=24984 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=22:12:31 Feb 26, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=2.62 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AGs52InFHk3cJ5j80u2Udq.A26J4ADKMhWG5pv1DoHOxmWIV-4N1FlMv 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=5DL38980TX407805D 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=2.62 
+quantity1=2 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=f8131fad3168 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 06:12:37 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7_u6WWpqPPqcWBx6kkscJaJGvrjiQ19Duwg6b-JJ1mao529NbCudqnQGvcFtPvmnp2gYEIvB8c5DNzZjPNOsKbcwu462hiUgvSkczcicPy9Mf8X72onZ15Prvj-JI-6fRGhDTPNxk_h-g2Lh5QZTiW010cZXHvPdcrWv5BA-xOmr6SrVOEFuWegcqk57oSqPM3uUcgSnvPOy7GTapHgp0tLddpxt3sO-Nht1PZGJEb45m9WqzXvGaJJ6q6N5eCdDMWZ7-A1ilpHOaNwueNtdSEKxQC9dj5JkS457t0CVQTgvoN_3eD9QfQPeE1ZMOdzT0Bfm6Sm0TRA-EZPHDldeewuGT0_I2oTivI1zKM2-s8OGsAQgop-oMhcVHRaU5gMAAmxKqSfq4PNN80KCmWR064YT-ulSYCZjXaUdjNvXlBnkqRHE4Hq4z7uMDXS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:12:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:12:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425017557494023; path=/; expires=Sun, 19-Feb-45 06:12:37 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3574263892; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425017557482655; path=/; expires=Sun, 19-Feb-45 06:12:37 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 12:12 AM] - FAIL: IPN Validation Failed!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Fri, 27 Feb 2015 06:12:51 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=mohpzFl--OAv2VmW8vGMpfrMhY3tkXGfEbb0br_nlvk-bP_wfiderNyPtad8wd5-UvE_tSxSoCf-XclJWLpeXroVX_idGUeyTW6wKOx2IqXoPk__7-urg9W1IOiurM2npPzQPLUoEBxnQKNeo272SGYjGxEp_1WMxcxopnnfo-cbeguZIEAwaY7NPhZ05_wPgPtETktDUlZe5bnYM3f5_A3F5PDilZUU7ZR8ArR-rKhBAwQcwq2AkizaEWoos_GNC-D8lgFRV5hjSMINHGOkCrQb80UaAtfUdiZBGFj8igisg6ay08EkkIhQQ2TM8Fd4Pa5VjXcaKcDgcUczvOZAprupHAg6o3tC4HmoB0iN1Su3IXLQ7rwU-uZOux745qtkN3Q5jcvtLYtVWc4vjvtZeDBaBuhYXdmzlDOVMIVuhZ-qWz3nMEm6UXBReAS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:12:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:12:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1425017571270536; path=/; expires=Sun, 19-Feb-45 06:12:51 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3809144916; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.35.1425017571259831; path=/; expires=Sun, 19-Feb-45 06:12:51 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Fri, 27-Feb-2015 06:42:51 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+
+[02/27/2015 12:17 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0017046697 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=48662 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=22:17:27 Feb 26, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=2.62 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AK5T.PxOXhF1KLTr45dtZhr4WNsHAIVjzTMtK.oos6HMADlKl2jxgdu1 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=1F419896JC108042A 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=2.62 
+quantity1=2 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=bc9ef87ad510a 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 06:17:31 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=yMfxlI92XEiX9y0XP1hNuijwE0AdfHtIjt52WwZn6x34z4BwDdlAj7ogX4xzEQjcunn7xTK7XdmWroOVydTeZHGRM6C2OvS8TDZDpynbn-PZzbduKMzTCblV0KNPw3rWcDIZ09GWE7aepnVBq1H6Y975g9E0BQPJJ9zOyM2xgtnh0WfluHu03RStrf9Ak-au1Sgz4iXLHAFAqk4NrwxFED8pgrNjPu89lZSvvLwCVMeetzAVCkxmnrsQ4GQCBKRL51_HRNXzXFyy5DYPz-vZLp37TuAGMApiijkYHx1V6p9cmTMLFjC013ch2IqGwVsgBvTB0tjxKkFGRAFPS_uj9PyswJr7m8p6qjSX_3IqRYGxoDjB6-6Z3BZAzWm_BUuMQXetEiL6VAptpE30B-86Bv6SfPOAU2jGCtdOBqLN1Wzs8AS8zKBGqNMkTaS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:17:31 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:17:31 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425017851337769; path=/; expires=Sun, 19-Feb-45 06:17:31 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4211863636; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425017851322661; path=/; expires=Sun, 19-Feb-45 06:17:31 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 12:17 AM] - FAIL: IPN Validation Failed!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Fri, 27 Feb 2015 06:17:44 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=8ubWa1YJKUS2TaJRvUBMOBkP7ovpbH9Pm1kCnPwwOfG7UPSuCUxH-2Apv4dUMoKaR3-RvioeSWEStWdFghCap1kTtOiTlTs0EEKyrpBYHfLIUzIwPco8ogxoLKRPDyvKcHL6VW6T2hnlIdodgC2vsR1oSII2kqqHcJCOhch3vfN6QIyWfaPtUf7nk63A0DaxIk2FJ-8YrNkKtrpE0osnahtFVPIab_rKPdjDY09P-UcioUfGv5oRavhyeg6pHsY9EwVt6CU_ILZETxHJuSvM9svK-BycqozfMPfmycNfxYieX8yR0_WnrV5dstqQ2LZi1XxhYDqhRny4Dq_1DBrVMBcPp-YBSUNSrlwn15Sq42aKPByM9oFieYn2QMdrTvNr9qg2lhRqPweHnjBGHFz1Zjxp-ngtJQnHOZtyhMg07jnvsqmCO7Hl0a6t9CW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:17:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:17:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1425017863613057; path=/; expires=Sun, 19-Feb-45 06:17:43 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D118288468; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.38.1425017863601221; path=/; expires=Sun, 19-Feb-45 06:17:43 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Fri, 27-Feb-2015 06:47:44 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+
+[02/27/2015 12:27 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0026304324 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=9504 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=22:26:56 Feb 26, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=2.62 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A3BP0MzaYJNzgkyTXktjo722BEsQAbkGP9NCzPF8x61Utsxb6QsQfn3B 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=1T88135803874034G 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=2.62 
+quantity1=2 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=2b879033546f0 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 06:27:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=kKAojUF1mWkAkT6K2SMbKWb5zJ5NcbF5tHtM-vVgsqGvDBpLKVYtpVI0jalVwtOmBVjJfq-65V8OkEodCCho74qvgfE6pJ7Zyi1IscEKXRFbbmaA1_jHcmnKdNGE1v4g5iAMJufaC6Qy4aul3d0JMZYQtjKWD5ceni2Dv8JaclVr4JlbOMXcp7jHhunDYnfbQ3emuJP7cljy-TPdqhSuWT10IfyX-PdcdWIxzBIbQjZiZ6wDSR8UY0UNP1u5oJ42xJ_hXuP-ae6oc4oTetgsGg1RsgH0-8mGYxOvaBqLKpKwYG58LbWpC4EAPIBb3G9p31j9ILnQfgmGEb2OTyFdfzmxzlTu2gDlrA8vapok3fj2f73eNr3uWnT50u0YK1JMbKHSKwwREawHUPtt8vDQpK87dy0ZmzvvGZN3DMhyFW0vNFw239gIugF9hye; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:27:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:27:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425018423961265; path=/; expires=Sun, 19-Feb-45 06:27:03 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D923725908; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425018423946711; path=/; expires=Sun, 19-Feb-45 06:27:03 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 12:35 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0035091332 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=45924 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=22:35:33 Feb 26, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AemLUbbHW6LWTZzLeNiEM3sj1MXSAQ.a94SAUg1aK1c5.DA4YlpuSvW8 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=8XR31806UT263645G 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=2ec5fd70a868 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 06:35:37 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=-eOKD3Bn78hGURDGSQGpKp23aORMSdwoJbybqSsR1xkZrisDUzeTqf3epwxVXvIWzStpQe23XpZZ9vaYO9R4F8AsOgFsTK3IxKhY35BpxkA_S-E9DOmwExCpXolZjDXCusWkHOW_yjCLP4j8r01o2UF_cQ-sJxmRTyP0OthZHgj0PsWAOt0PEmw9EdMWvRnP4hyK8gYZNWjqCw1vE5J7rGRaiqnyE82WxYA9bLFeKOGVxDJd2czlE2wzG6KQVFyDUSKdeOSUX9NaMisp1PHMRA7emyMO9GbR14HG933EkqFX1vUUwpgttl-ZwXhDZ-GWuHa5we4-aXoeZdYt3OhgfaSJwGl2Z63LUfMpd2obUam-rvEx8krHYn4gJ305ippKY4nfBM16drvTgzufK9bIeaKHm9A3_kii2Zav_jUPS9Gw1CIPFYGryxYsEXC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:35:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:35:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425018937845556; path=/; expires=Sun, 19-Feb-45 06:35:37 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D957411412; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425018937833915; path=/; expires=Sun, 19-Feb-45 06:35:37 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 12:35 AM] - FAIL: IPN Validation Failed!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Fri, 27 Feb 2015 06:35:54 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=p7UGcK8uCaDLlIugndnYHWpoFaZ36Sl0r0G7LH1dLJ8rc81mUwpaOf29e3FKhx7OFZUwvLCBKeJk6LRdPm5EtVnAppdh5pjcgSTOtrB4SpJcCTG14omvgpIoS9m1g4Tbug6DvtbNkIMJBDv8zkTZC5Ygg9OIMaoge8EImeJFr_CE-4x8-QGN-0pJkepDstM74VFcXO7x4evaIR-3BTpf8DQpmP3eT1wkSMUUITWfnZ71iKzlTbTBiV9TGgao-1OtXIR2vz07Lks7TsWK_Lk6NwKXTJxICMQlWjAl3W1yCEPl57TEKgumxtfKQqDE-o8zv_KytHlkyijT3FzR1JarENCX5OyMLQAb8h7uUJ9-hPai8n13Qf3MXNxD2ioHlwlRyvez7UTCYLxoq6eWp7i1zHwqodhnetxfPc-_vaNKsc-px-_3auJXrNWTsoq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 06:35:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 06:35:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1425018954464715; path=/; expires=Sun, 19-Feb-45 06:35:54 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1242624084; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.53.1425018954455400; path=/; expires=Sun, 19-Feb-45 06:35:54 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Fri, 27-Feb-2015 07:05:54 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+
+[02/27/2015 3:08 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0059191671 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=11175 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:08:35 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A7sszB1Fx.yQL0Gavkoy9Fdd0.dGAQu.cj2Qq.pqCJ4Y8w7mMXKda8Hn 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=2SY96082062255031 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=59ca1f6c6d3e4 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 09:08:45 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=T-OXsWGknwekow3aAMNx39tmCJ9RMBtex0FjE3Cm4qXDYPI9E-us76KqQjTqrxB-refUvIqDKZhSxTUXYLMTcvMNk-wf3HsxbIBcFizl9P3YOwXi8uLiveRuupxs_lEILJl3AI4FizKgDnzglFqFxjueGmWT17caVLnd3hk8IOYEWNrLdIvEbUrvkEeOq2dbdDP6rzPKgWcMi5WFF6BDm38oLaX1ueZY3tpiM2vLamlZ-UzHljmfNgLUFg1Hfc-FdhzQVhtAQzsHeVjFfwGBWb2NBLk9Uaof-WOGEhKvC8-KEANZrugUH5XsNZ7nzpjNYG0ZJvMolLtUZ8UPA_-7AZGYTKrgRsX_QtPrqcgb6_dzJNXD6_OJiWpGBbyXYeg-4kM4zhG8mxiVDCDTUxQJckLFgN1J6Q4W6qi-MwsLpa-yGbcaziPlZU_INE0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 09:08:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 09:08:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425028125815112; path=/; expires=Sun, 19-Feb-45 09:08:45 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D490008660; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425028125806809; path=/; expires=Sun, 19-Feb-45 09:08:45 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 3:08 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 4:14 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0356148559 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=4882 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:14:47 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AKwUpvimaCAfmfJ-.PhckWeGqTcrAcsIaD34cDI1rmh5LxPc9gjU3r33 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=40U429587R164232V 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=237a4b7f52763 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 10:14:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=4o2wyPOlj3hy9uP0C4EA1rDQf-iR62L_eABSPW_5va7pwmBw2Pj1C9VnJuTd8-X4m9HuXvpixm2V-yeWObuHSpu6h8QYsYNLmhE5FJU8kL7Y5OAGfPAlTpOjzlelmwjd82uodb52ftRSPqA3JSB06K1T_EbhWA4hVFoUoInEsYOMYN74UeBRtvzbu5rR9bkle2Nxb-lcBFX3ePzzrTeomqZ53OS9-Lx9E3cUfH1F5LS-eYobuj1JdVvDygHsgMs6t663jidA45aagO4BH7ypbIDtwQ4VowChF5ttmy1NO6do5MjN7DyLVOsNmjnHybU6rFzgiQbX0sYeIODoOwW9Fihcy7RvHK3IAUC9dPdcOTM-5aeBOCRoZGNXz9dqRO_44QG1oGXexaIPwOKkMpT75AMd7bqRdUTJKHrNMfTZX1WZyvdcX_TNzKsAFbC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 10:14:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 10:14:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425032092077120; path=/; expires=Sun, 19-Feb-45 10:14:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2621698132; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425032092065394; path=/; expires=Sun, 19-Feb-45 10:14:52 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 4:15 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 5:14 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 5:25 AM] - FAIL: !
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0525268360 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=67868 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=03:25:48 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AjUhMxdycjEeTSWfMc8hgFX1iuB8ATaCAbASpuZxo5rp.DxYzFTLgSuc 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=8VJ542659V9427351 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=95ae1e22470f6 
+IPN Response from Paypal Server:
+
+
+[02/27/2015 5:26 AM] - FAIL: !
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 5:28 AM] - FAIL: !
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0527527151 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=70527 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=03:28:22 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AIFh-1k-U5zD-1Fply0eqtX1NZHYAnY0aSz4zDKYrz0NIAwsJZ5baIQQ 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=4NC356440E518161B 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Crocodile Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=8297232913f69 
+IPN Response from Paypal Server:
+
+
+[02/27/2015 5:28 AM] - FAIL: !
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:03 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0602474792 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=21010 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:03:18 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Ama2VkZWHBN5P8JFn7fza.xkTMiVA8nop8Uw8XISrLi-3ulVZqMih2HX 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=1ML74134LF9331004 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=17847465da513 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:03:23 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=p8J8z5eASRp5yMOSi1CkTDA_SqQGvf7o1_2EVN36xSzg719qrf_AyLpXtG6bTbu972M1AbbFvoJ76Fp58VOkumt1YTcYJzFFjnlCJo5VAWxvQNGiqqE1i69de9F5KbS3DO7v8Rb78lD2F2jCW2EAj4Kj3r4am-zrM0OKIAEqQzVd644GUKvBzLqDYJSpjDp3prReUlT43bYL48Gsj1asqsw1Vd8K9x2cDXZAyiBjUAs9PqwgoLGB7gAHL5DrHEbeRRnzyX_Vuwcek13e2PdgvN7Skp0Gs--t5wAUdmqNKu4JRBy38xCjPMWq6en5xSiSx7WsamZzYL3I9jZJ6mF2MAzjX3v13YwVNAKZvnv37qZmUbvJ7vp-1UNwajdONRTREoLWdaS0ttWF9eD_ePx-i_nxQnXZSPVwhYVPKG4DMVyf2esjKg2-JSAssJC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:03:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:03:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425038603090373; path=/; expires=Sun, 19-Feb-45 12:03:23 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D190705748; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425038603079120; path=/; expires=Sun, 19-Feb-45 12:03:23 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:03 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:19 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0619108690 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=20236 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:19:35 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=ARTWVaUGckuviK6HZ-Of6l88vDtdAdo9F0R4RgWnBD-C9Mc5MAKwwBH6 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=5DV73896DY232651S 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=68e94f2d29cf1 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:19:38 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=u1Wm5H_d6fcOuEpA_SYM-rFaQ86aQp2KxKSHokYydW804GA0Rza-47cwS8--AU0Dz4oo-IJERv05_iRUpBA2_e248wLe8W0SqHUrMLUQFjzdFDdC-jqXLrzBEScSynUDlHrMCa7bk92IxGblujrUT-snhjrKr4JCDLIfLPvCSp_v3getGZXn0w5smoa6pIhfFHuPbbaCAR5_j5vr3FQwl2y_XWOXM-s6SxKk3z0cyELwqN9F7aGnxcTyVzZ-8i7KY7wgPYKB_73wCj6pR7CmQypMYrEDe5ZuuRkG0cSOomEtiQvrPsa87iG8_GUKLPnHqgENoEMBzZyjyOsgmhVUsFT_0MgMwhAmqFeKPQrjGj1i1xIsFR_Fn6KUXP3_8eTtq2IMEbuULOGnHGBlF8O6A22kfkDfagLfaZZ42YJZvMVo1NbQ9xsIBJvrjBq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:19:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:19:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425039578491744; path=/; expires=Sun, 19-Feb-45 12:19:38 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3663786068; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425039578478079; path=/; expires=Sun, 19-Feb-45 12:19:38 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:20 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:21 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0621128530 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=13509 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:21:37 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Aw44NCNIe3P9gB2wAzyBZJGhSKZ7A7Q.ZE7kQJyH9ocVuAg8zZQY4WUm 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=2H153433JW426731E 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=f979af13ab5ad 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:21:45 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=yquoP6mfY7h3I5jq54RdVFMYsSFRDt6k5icH3yct1rbyunMvJmxkWoJEamdicUGKbFSWJlCu4PesFcPtQPUbG--oJdfAGrn9K7sM_uPmnDkWXx7CtkJHwPs_3IkdFXP5YTflDB180qanWYefSWDMwVHBObu4nfliA9oP7RX5bIQkrmN-35Wu_n6m978ceccGmvG4Cw0WDRRhStbjp9HeOn6i4UVoX4bgnu4zTLB105PfEd2xqfj9BOqvSJk4tftfeENJDAgf9ILdvexBxl-amhg7xJpm4B-axiMfgLmIlVxovevsBU9qb9Jd-MQ9omEtlPK8KCgbniTsrXAAGVLQzzEqZXajdr48OyDWgYgSpE99uTLXIlnGdeurFJTj4uZMIP1g3wGMcrJ_-K5WtQ5ifQ03uxSgEpunK8PLPtTTVP41FNmwa_KSOplvAu8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:21:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:21:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425039705452388; path=/; expires=Sun, 19-Feb-45 12:21:45 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1499590740; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425039705437954; path=/; expires=Sun, 19-Feb-45 12:21:45 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:21 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:23 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0622501876 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=75141 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:23:12 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=ARIS0uh1HvvBYShdl2zs8BQVvSesAGxOvRGkyom7FvWlg70.QdzecgSa 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=50M83188H3635240V 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=6b69a1d4e7e9c 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:23:18 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=XbpEpCQdxKlzoHm0FQx4osS48oh-SDz3oYHoREkkxyIMNxWjy6zVXGn0f9L3-KmgeBuJtbmbzb2BKaguJ4AaKbnw9LLQw9khJJI0l-iRs50zngUQvWb46r32X85QpFcazRI4XSCsU7-OWXTOCJVrPLVQAIwy8pX_qzK9_zJwjlrXBSRDlIlDyOOU59SCIx9C9JlndnRu6pE_SliEWIiEXVkXnE1wqeYPx-eoftgxjZ7hKIYoKdCorGuY0NuE0mSR1N8JMAlsVIrBJoRCurE9rZb1XvDhlyoeGUR3dv7yenl9lPjXx7QpiyqyYKlR-m1GTGPmJw5VQ6zImHmB9FMlBpb5JHOw7m-x1hUNqZRwgYh6d7oF2jEeCRwP4_4MWs7D8LtuUVsuL8gzb1LVRSKhN5jXzJXw7XBiYe9ZcIRxHog6pPjWrXYRtxPbdAm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:23:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:23:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425039798109750; path=/; expires=Sun, 19-Feb-45 12:23:18 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3059871828; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425039798096953; path=/; expires=Sun, 19-Feb-45 12:23:18 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:23 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:26 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0625524225 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=32392 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:26:11 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Ajx.B5aEqnAtfizoGToWJQ2uJQaVARxSlIYRPY.y-Cf1VBVgGCoNcH4k 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=7NC602521M840425Y 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=7a8ee7cbaa3d 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:26:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=1JK6O8QBznKyc9IYR1xJsbLWlsdU4EdABcmbgSIK5th45lBFLJUfI8pDzefx0rIAm9FcIjFvE3_Nls45m6GQ3XRMlp_0Pm7Xs444akm4-SNWbXNPbfyz1xDIy1b-ppY3nb8j3BoItXeL4C71AMNnw0x7_ARL6I5P0LUDf-dnALO6h_YshK_KZ6L9lLE_WQRbiww-nKztBOt_nU-egeoVb16kjzalj3bIEAO4ShUHz6eAKQeOK5lN_EpB-0xuqXEaaFqzVZAqqH6DIV0YkNiF5IyXRbyNjtJX_93l7uw0pslzlcVgJtLxXp-mKpBj_TKnxCRMg8S4x6Uu1MlJjHbbSH1YjpXmDkiHmyjCMzQ51tRXQNYN7UwC21L3vvTsElcnozvruSZxjhtV5mp2XGJ0jK1oiegB6_KutmY0JTYhK4er2DeyyR-h-oAOddm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:26:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:26:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425039974841474; path=/; expires=Sun, 19-Feb-45 12:26:14 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1717760084; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425039974826836; path=/; expires=Sun, 19-Feb-45 12:26:14 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:26 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0625524225 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=32392 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:26:11 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Ajx.B5aEqnAtfizoGToWJQ2uJQaVARxSlIYRPY.y-Cf1VBVgGCoNcH4k 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=7NC602521M840425Y 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=7a8ee7cbaa3d 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:26:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=1JK6O8QBznKyc9IYR1xJsbLWlsdU4EdABcmbgSIK5th45lBFLJUfI8pDzefx0rIAm9FcIjFvE3_Nls45m6GQ3XRMlp_0Pm7Xs444akm4-SNWbXNPbfyz1xDIy1b-ppY3nb8j3BoItXeL4C71AMNnw0x7_ARL6I5P0LUDf-dnALO6h_YshK_KZ6L9lLE_WQRbiww-nKztBOt_nU-egeoVb16kjzalj3bIEAO4ShUHz6eAKQeOK5lN_EpB-0xuqXEaaFqzVZAqqH6DIV0YkNiF5IyXRbyNjtJX_93l7uw0pslzlcVgJtLxXp-mKpBj_TKnxCRMg8S4x6Uu1MlJjHbbSH1YjpXmDkiHmyjCMzQ51tRXQNYN7UwC21L3vvTsElcnozvruSZxjhtV5mp2XGJ0jK1oiegB6_KutmY0JTYhK4er2DeyyR-h-oAOddm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:26:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:26:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425039974841474; path=/; expires=Sun, 19-Feb-45 12:26:14 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1717760084; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425039974826836; path=/; expires=Sun, 19-Feb-45 12:26:14 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:26:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=HsO480kumRb8NiDsUPjfbmXpyzHdr8nRNwEei1xbL6gfdfzwUGk65oFckTYev_MM4PxWvRdfgS487wRlkO0KXmDPSaJYa_2OmUCLlszqaP1MzLXCgrxrBIRJGtYu8XULvXARckS61gTeqlJ9JpprkviascdlMuX2iB1lxT5afehaIvtP7JvFqv7ZdHY2iVF39YVgz8g2H-apj0k5qxZMYWHiGdCuluNdivuW-fcq7_NOiDvlh7Jk4_uoqwZ-DyobEMgQrHRAxi5IsT8fde5ZT2m7MZz8gTTcoT_QT9PD5P2nTAHl_vFFH0n8jJI9edGEnJwsppxFon7IYEQEdczZdxrgwJw-gUZqQ2VCWRChEwES_jH4TULM2cr5d21wiaPaaXaVYNGo6mz-jVBRj8rruH0a_eLmJ_hWwG1hciUPQ-dpA0wsFWMap4wmw_m; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:26:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:26:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425039976097394; path=/; expires=Sun, 19-Feb-45 12:26:16 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1751314516; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425039976085357; path=/; expires=Sun, 19-Feb-45 12:26:16 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:26 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:26 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:28 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0628164946 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=88191 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:28:43 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Awwi13qi7rYxwBjfoCgmlXEDcowgATlGKC0x5WavesOERhsIEroUk1aE 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=4RM43173VE024643F 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=91d9368bf2f3b 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:28:49 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Mz3Zp-kTP7eiZJXLNavVlg40bv7wH_0xQ7Oo3VY17v43rNm3Whs9zUsPmbXdw9yvpU2H58I122Gr0ym6GKFTB47BO7eg7tyFWlW-u6csL15BE2b1Zxv-aMmnhmpxxKHpjy8bA5tp-M0DKSu8k60uZHnslj0bhZ7yeuIDt1arO3taZUHb2EAyRH2N_9owvQ7B1OBPP9Y404Dnc2qbZ03M8FExQhPR-v0fp4fUrLlkFE5PUxYH72ILn2tX5cdYmS0MGsq1jDEXJaQVW1YMISAYDcU8gBuZvdFB01l5yF_zC29FFm-C_b7pja4d5P-7ZUPfuSNLVOIolptEwjhg4SbCZUDqhe5yfHhkPi_IBtXxyBtfmVRkKiCfkg5KgGS4OXpkV22Wpdcu1gDqUsNyfw1rBZw7N2eQ-oVVMRnIL-WSekdVrwyWCE9SM_ULANC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:28:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:28:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040129732368; path=/; expires=Sun, 19-Feb-45 12:28:49 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D23326804; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040129716611; path=/; expires=Sun, 19-Feb-45 12:28:49 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:28 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0628164946 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=88191 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:28:43 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Awwi13qi7rYxwBjfoCgmlXEDcowgATlGKC0x5WavesOERhsIEroUk1aE 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=4RM43173VE024643F 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=91d9368bf2f3b 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:28:49 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Mz3Zp-kTP7eiZJXLNavVlg40bv7wH_0xQ7Oo3VY17v43rNm3Whs9zUsPmbXdw9yvpU2H58I122Gr0ym6GKFTB47BO7eg7tyFWlW-u6csL15BE2b1Zxv-aMmnhmpxxKHpjy8bA5tp-M0DKSu8k60uZHnslj0bhZ7yeuIDt1arO3taZUHb2EAyRH2N_9owvQ7B1OBPP9Y404Dnc2qbZ03M8FExQhPR-v0fp4fUrLlkFE5PUxYH72ILn2tX5cdYmS0MGsq1jDEXJaQVW1YMISAYDcU8gBuZvdFB01l5yF_zC29FFm-C_b7pja4d5P-7ZUPfuSNLVOIolptEwjhg4SbCZUDqhe5yfHhkPi_IBtXxyBtfmVRkKiCfkg5KgGS4OXpkV22Wpdcu1gDqUsNyfw1rBZw7N2eQ-oVVMRnIL-WSekdVrwyWCE9SM_ULANC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:28:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:28:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040129732368; path=/; expires=Sun, 19-Feb-45 12:28:49 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D23326804; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040129716611; path=/; expires=Sun, 19-Feb-45 12:28:49 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:28:50 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=u8AWStzIqCa-RDbZ0JCTgr2EZwjneYpDnHR4pVOmLObXdqOntV9ZTV1pm7vk_qM7y28kgt_nyQLmCKtz_OkajpQH5MbsbDSch9T2irj0mibM8rGRD9RHdMdWViz4jDYqSPYaGD9kByG_YHtkNmC5v4M82nEy9XVVaqgr7tUdah6mNFVYb2ZyE8ctMLP35-ealv6EoMafwsVJgsrnnSECUiD8-xDOaoVWCmKbr-d43E9foXkCZPBUokHiCOAD9QIHGvAeK-hU_RO0emCHbLOXbUb6XitqtXQkPZGbFNBSoOHsTpxG708VTuuMmp6KvLpwj8GgLwdZVTCtEthcpkdZA7eM36cTgVPwD3aIMz9GPdgD-1x3ngvdAsRcU3PCd008SBx8pqIO8wHNDRjPgCkB2Ptg-lyJS7ZkPpaQZP7vz3XTbq2_xFgZOx_HPge; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:28:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:28:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040130972472; path=/; expires=Sun, 19-Feb-45 12:28:50 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D40104020; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040130958605; path=/; expires=Sun, 19-Feb-45 12:28:50 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:29 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:29 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:30 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0629443073 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=88913 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:30:03 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AHboLv4ERG0gCTBwGWjjRcdawLINAQVWaO7vprAZIfmGFCix5GFIjUw7 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=8FH36328NB977025U 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=dcf565229a7f 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:30:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=3cC6OjttbUdTUKZHf0IMn3OsdvbUwOQBJHIWsXpv7CUTuot3p_knzah8iNbSwYjkOJO2rGQnVZays8THrlTGa9aGgafg7gULI6PjIsmDinLSjaXcPcarMpxMIQLyxb0XFhDKiGAchukfx2Up54HpgCHsaWnmdclBxv6PHb4at870-eW0RUCDS2NSkVmkMltiSIhIckPtDilJUBS1PuWIc_MbrKna91wrnN0ttaXJqGXimPuWRiGdvo-15VtJLxEF_TGyTO-WNhrgyraFJ837O1Z1raLtnjR99E2DYv4dLmPcHXOL9SLAUErgynPOveboigse3By1-NQoI_-Cy10RZfaA2WVui_Fkomgp4ZsYAVuaxmTjBb8pZ2XYRCK11h7zpNJCNmnnMMshiJ1dhCeSvSkVsQw9A1CsC5RxcvmDGQZ65Dbh4cPqHyKuolG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:30:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:30:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040214491763; path=/; expires=Sun, 19-Feb-45 12:30:14 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1449390164; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040214475424; path=/; expires=Sun, 19-Feb-45 12:30:14 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:30 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0629443073 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=88913 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:30:03 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AHboLv4ERG0gCTBwGWjjRcdawLINAQVWaO7vprAZIfmGFCix5GFIjUw7 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=8FH36328NB977025U 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=dcf565229a7f 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:30:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=3cC6OjttbUdTUKZHf0IMn3OsdvbUwOQBJHIWsXpv7CUTuot3p_knzah8iNbSwYjkOJO2rGQnVZays8THrlTGa9aGgafg7gULI6PjIsmDinLSjaXcPcarMpxMIQLyxb0XFhDKiGAchukfx2Up54HpgCHsaWnmdclBxv6PHb4at870-eW0RUCDS2NSkVmkMltiSIhIckPtDilJUBS1PuWIc_MbrKna91wrnN0ttaXJqGXimPuWRiGdvo-15VtJLxEF_TGyTO-WNhrgyraFJ837O1Z1raLtnjR99E2DYv4dLmPcHXOL9SLAUErgynPOveboigse3By1-NQoI_-Cy10RZfaA2WVui_Fkomgp4ZsYAVuaxmTjBb8pZ2XYRCK11h7zpNJCNmnnMMshiJ1dhCeSvSkVsQw9A1CsC5RxcvmDGQZ65Dbh4cPqHyKuolG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:30:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:30:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040214491763; path=/; expires=Sun, 19-Feb-45 12:30:14 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1449390164; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040214475424; path=/; expires=Sun, 19-Feb-45 12:30:14 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:30:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=O0X8YBOfs7KQ2P3JvgcfwOad96ItxbK7Nr0hgyTNhaOSr5TMqJhjJ3hr2QY-1051liUPOP_etqSqARUk_s6f0XyQ5KX09Pqmp0Y5beiwECNPnB5f2mLgFfzwhVSu6tC8wMUVX0aeNbvW9UzBbbI8dWGhOAVUT14zSSjOv3lB1pLF3WhAPC-yYNkkdt9c9szhN7IWE8hOPGCbwKJxWyk42b902tzJdC0g_EcLoq9yG2YN2QffgHHha6MdwCK54vxSM6VkD1XFrHB1ejSsYwTmmFU-HblJMWfIn6Er8bUP4QrsDWBS9-CFEgnOJjiebWWxGBtfecYdMzTfqr9g-0Z8LeiwSzTK82RVA1Ydd9X1CT8mx8FLePYoQH9Tuvg6wrsKOOOHRi-_2g8KEGjH3FM6POmfHfb0fWTVvpXFHzG86ZL6idwQAhU5O7nWOrm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:30:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:30:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040215639994; path=/; expires=Sun, 19-Feb-45 12:30:15 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1466167380; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040215627632; path=/; expires=Sun, 19-Feb-45 12:30:15 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:30 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:30 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:32 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0631333708 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=94342 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:31:55 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AWsUz-6N7VCn8RRIkcukX5yAw.wXAGMYTK3O-bccnRpM5NeKFVcaK84o 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=13397043PJ873122X 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=27051936506bd 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:32:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zZwTQPFPUvCP9o7w1kKKNmJOKGpm1twV__Qmar6VzzJy1J6rtBcih_g_NpqR4PCCE0AFSmMhNhROd_j52qjjOvx3wDxEx1XXWSrVyghZGtEdrHQU3luCqCsnKQ7UxXEkZiNHMkOlghmq28Pj2wIS8CusjIb_wgfBY-kOr-EJs_rHpW7k5SYNPNvepQJvtTnhLBwyifKxjlRYltnYTeCpSXgQ4V_c6xIEPZtDsatYhIKZ1Y_ovv87CKWk2avEDplTCvxE4Md-pLvST62FxuoevrxPddVJ9XNgFub1q4zs76mI4rkMlLhr4foQmO5IlDEhPj2gifMF1LuUKuq9kwV6SewxAcNxX-VoG9ENKP0jCrNIKyoTRF2u72xJAibdPugC095WXuneppLjMjiOAJbA7kHqf58vmDO8Mlzqf3kiPymCg3EUjJXWqrT2Yqe; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:32:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:32:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040322291201; path=/; expires=Sun, 19-Feb-45 12:32:02 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3261329492; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040322277390; path=/; expires=Sun, 19-Feb-45 12:32:02 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:32 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0631333708 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=94342 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:31:55 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AWsUz-6N7VCn8RRIkcukX5yAw.wXAGMYTK3O-bccnRpM5NeKFVcaK84o 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=13397043PJ873122X 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=27051936506bd 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:32:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zZwTQPFPUvCP9o7w1kKKNmJOKGpm1twV__Qmar6VzzJy1J6rtBcih_g_NpqR4PCCE0AFSmMhNhROd_j52qjjOvx3wDxEx1XXWSrVyghZGtEdrHQU3luCqCsnKQ7UxXEkZiNHMkOlghmq28Pj2wIS8CusjIb_wgfBY-kOr-EJs_rHpW7k5SYNPNvepQJvtTnhLBwyifKxjlRYltnYTeCpSXgQ4V_c6xIEPZtDsatYhIKZ1Y_ovv87CKWk2avEDplTCvxE4Md-pLvST62FxuoevrxPddVJ9XNgFub1q4zs76mI4rkMlLhr4foQmO5IlDEhPj2gifMF1LuUKuq9kwV6SewxAcNxX-VoG9ENKP0jCrNIKyoTRF2u72xJAibdPugC095WXuneppLjMjiOAJbA7kHqf58vmDO8Mlzqf3kiPymCg3EUjJXWqrT2Yqe; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:32:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:32:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040322291201; path=/; expires=Sun, 19-Feb-45 12:32:02 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3261329492; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040322277390; path=/; expires=Sun, 19-Feb-45 12:32:02 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:32:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Qhh-WM43KGCUzKtHNFfc13P5qkSjyd1F3mcnIPQgfnNx4ofT1PwDyykAuctyPsHvaGBnwERs2yUpJw8ifiHGlOkz560j1m7BfK4Fs70B3gyCmU9E_2nyXuH8fYXWBbK3t0hNTDku8FWu9uenHV2UGqMM1N9JlyQiHZNjph0xAQxrh9lCXt4_iYJIDtbZttY4uAiV9eFB-5DHVCkLSRgHECcFl6qEFR-w3O5woAvKBcy5oAeh8duN0w15CLI11x0n6vC7_AvEg4fNWspu-cYafWGb3cyM6EQRqOJsuYUUAsyd9lKVKbR1fiYRx2JKjEEYYhZY2K9yb4SBBMWCLiqi8c-kXAozG6EmXeEwurGPdVE0cj37KptL4wYoO813Q3TB_85QijAgo8VXCwV8Dd-rfOAc8h1hEFI2OljnSoR_lifab_yER1ZRBb6iVNK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:32:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:32:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040323467068; path=/; expires=Sun, 19-Feb-45 12:32:03 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3278106708; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040323454175; path=/; expires=Sun, 19-Feb-45 12:32:03 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:32 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:32 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:36 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0636017064 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=29567 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:36:28 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AyL.bx9Hna5K6kwesIuNCtLwsGqoA8DZbjCdbeCSuRrA-c55E83XK9rr 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=9UE33305MU224281G 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=df5e746cb25a6 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:36:34 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=z4s1y6yCdQQ86mqS-1wrhg9jqX207prrDBYB2QEUCImqh48yMPJgn4glzQ3CoWtWd_lcV5QtyuJQthVvUyILQzyUwtKCINq42FhMPQoMk4skcNuetLu98_Zk1gzbFpMeXLkkWc5lLiJ1GdjIDUT_LWtWR1sDZIL4ZH7C_mD6m8gFHGr_JK6luqGn9Xo53IdNNWLb8NBZvVfwKzPRXiQzxRTMMOxeHFvai8VUew0ZhK87-rquWkKnJqt3wav6BAo6WJXxiZqCNANRHHeOc01Y2EdZCLYNbkrSRAD2l-hzX2yn8BbunIqLfanACrjIg_1KvPICRDoqftQyIjWLTy8Ch_x47e3zLOaz0SMrg5XGKmP3TVsJYEk_qsd6wQaFyfeFNNon8-PvQwLl1zjc3a8S9K71OKRfrhvl7cEffYPxVNEqB6ueVcLaXkv1JZ8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:36:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:36:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040594395550; path=/; expires=Sun, 19-Feb-45 12:36:34 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3529830484; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040594379096; path=/; expires=Sun, 19-Feb-45 12:36:34 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:36 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0636017064 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=29567 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:36:28 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AyL.bx9Hna5K6kwesIuNCtLwsGqoA8DZbjCdbeCSuRrA-c55E83XK9rr 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=9UE33305MU224281G 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=df5e746cb25a6 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:36:34 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=z4s1y6yCdQQ86mqS-1wrhg9jqX207prrDBYB2QEUCImqh48yMPJgn4glzQ3CoWtWd_lcV5QtyuJQthVvUyILQzyUwtKCINq42FhMPQoMk4skcNuetLu98_Zk1gzbFpMeXLkkWc5lLiJ1GdjIDUT_LWtWR1sDZIL4ZH7C_mD6m8gFHGr_JK6luqGn9Xo53IdNNWLb8NBZvVfwKzPRXiQzxRTMMOxeHFvai8VUew0ZhK87-rquWkKnJqt3wav6BAo6WJXxiZqCNANRHHeOc01Y2EdZCLYNbkrSRAD2l-hzX2yn8BbunIqLfanACrjIg_1KvPICRDoqftQyIjWLTy8Ch_x47e3zLOaz0SMrg5XGKmP3TVsJYEk_qsd6wQaFyfeFNNon8-PvQwLl1zjc3a8S9K71OKRfrhvl7cEffYPxVNEqB6ueVcLaXkv1JZ8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:36:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:36:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040594395550; path=/; expires=Sun, 19-Feb-45 12:36:34 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3529830484; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040594379096; path=/; expires=Sun, 19-Feb-45 12:36:34 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:36:35 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zUdONBBBs7lqJF9nXF_W2Ad5tPwAwaeuRVtFvHZ_4iEGPDkCq5m9LrRqYcBzmsWvZyZHKmXRAN8bGltpFiqv5HuV1Gnl33qI2yzEjNXYJ4QKqyhwlrf44JHtlXS2j98h9ng9MQjDfzBFij1zSA984DFho-KM3mRgKfOHdVAyMtW0kq7VMEbcwjrBNAk6DBGZwdKd_lxfWmVt4WwQ8CqxhLmwI61aRtOR48Zgb5qE5t5zixGi73NMQhwF3fD-PulgtIyyA4bwDyNhgRST5BwjqEDwEi0I32iCNu3IPZjJKsNHEzjP0ep5haGkIWIgA8D9ogSUVZBJ_icfpgAlU8Js_dzN4NXk121iwzNGckDg9fiqMTyZ81XjjuXk7b3XhEXoqbPax1j4U0D8Qz9fjMfiF0Jg1tcVc4qBBOthN1lQ73kUSHT6dKYNLcnsU7q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:36:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:36:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040595612413; path=/; expires=Sun, 19-Feb-45 12:36:35 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3546607700; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040595599473; path=/; expires=Sun, 19-Feb-45 12:36:35 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:36 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:37 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:38 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0638243755 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=97876 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:38:50 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A0T5p0iA6Z0-11MndTYW0I1dySAnAxUBJH9D.OQCzE3h3-NHnyT6IWHQ 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=44C234415N469203A 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=5c44ab383fc31 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:38:56 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=ctMUYpkJ58yJNgrzFsjP_QqOadzfde3dkL-B0JaTGp-1n999KWuJWoUd388RbMB7EO1ibS7xT31kahA02T7yaxQx_Sb-coUBegw-tHVVvStiPs0zZpRzEYE7m4C00dgYOOXG8aZc72xcoUrfD90xhCgu4b29roXqZOC0bghC_8zQxa8CR6vtM85vZRPxwW2KVGRgyCi--jbPWsoSbu97bxwflCGrwhV91oRSBmp6yFVO9pmv55FGP47wGpgFK7U0gQC6a_2-x6RYF05VqC1BSsw4GvJbdAFT_A5GKZACB8p84zvP-BWy8-IyQWV1QxBCRHRRA0s-VegkVkbfLg_HyM7LxNNQS5IvY37unT75YJks5HwQBSYRgGXrJXUxn6yV35E7rEBw6fN3df8A7Pygvcm31wfMF-3EcNoNrourvmdG5es5XOIEQ89Z_fq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:38:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:38:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040736398216; path=/; expires=Sun, 19-Feb-45 12:38:56 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1617293396; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040736384562; path=/; expires=Sun, 19-Feb-45 12:38:56 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:38 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0638243755 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=97876 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:38:50 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A0T5p0iA6Z0-11MndTYW0I1dySAnAxUBJH9D.OQCzE3h3-NHnyT6IWHQ 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=44C234415N469203A 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=5c44ab383fc31 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:38:56 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=ctMUYpkJ58yJNgrzFsjP_QqOadzfde3dkL-B0JaTGp-1n999KWuJWoUd388RbMB7EO1ibS7xT31kahA02T7yaxQx_Sb-coUBegw-tHVVvStiPs0zZpRzEYE7m4C00dgYOOXG8aZc72xcoUrfD90xhCgu4b29roXqZOC0bghC_8zQxa8CR6vtM85vZRPxwW2KVGRgyCi--jbPWsoSbu97bxwflCGrwhV91oRSBmp6yFVO9pmv55FGP47wGpgFK7U0gQC6a_2-x6RYF05VqC1BSsw4GvJbdAFT_A5GKZACB8p84zvP-BWy8-IyQWV1QxBCRHRRA0s-VegkVkbfLg_HyM7LxNNQS5IvY37unT75YJks5HwQBSYRgGXrJXUxn6yV35E7rEBw6fN3df8A7Pygvcm31wfMF-3EcNoNrourvmdG5es5XOIEQ89Z_fq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:38:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:38:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040736398216; path=/; expires=Sun, 19-Feb-45 12:38:56 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1617293396; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040736384562; path=/; expires=Sun, 19-Feb-45 12:38:56 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:38:57 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=58MoR5KGH7KhZ-BLWi-liT8EyyE8k33017Pbb4cAQGgrA-ssomstf1ih70WMmfKZhaiMunEw_Ec4YyGh727vrUbQ3_6Me8IcZPYiQhTtafmsiZXjw_qsNnfE0FXnHFWb-xNmEe7PdaJc8n3xeA-RGN5V6n-j17ER7rvex6ZJJWS_qhWGIpENlOEpcLeaGKrTLr3fOiLJhc0py_cpq7U-ZOnfbRZ-aeLaN7RhQf9SxQanKkdVRhO8i-qn-v5Iqaf7jw5tcpTusD8FjsKfGmu_PyR339oEJoZFzV5enQA8ifXrdIxiHXvtAxGmGGVUy2Ob44S6lVg1wkw1z11qrzPVAqEsYqfntTRJHotcyUuPhx1InJ-e3efHv2GWKHqnXQnwK4eppnCetB2fhawuYec1zRag_haL00gzi8bHduRFzMMNjxeAa-UIqp0Ka2a; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:38:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:38:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040737635390; path=/; expires=Sun, 19-Feb-45 12:38:57 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1634070612; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040737619760; path=/; expires=Sun, 19-Feb-45 12:38:57 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:39 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:39 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:40 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0640061523 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=97511 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:40:28 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AOHmUB7K5DXzQB4MDNoua-4ibB8iAlSas67XDGp2jnNsoeKDICqfkSVz 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=0323161756006772G 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=204b57b2d1d40 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:40:38 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=S_JZeGbTfbQSRdlCerwckMN8aSRXje8gcHbZHe8BN096H3-PAf5nO60A851IvC0RXF2JdpRUwCAQxUvnvSGhXeJohwHExdV02ObYLFzYkQqB7A9W58pE5gkYn4fXVXVy7GdbEgHPTdfXX0zPVCAGu5iCttc2HmPPxc8-WXU9FPj41Aq3mxlm9g7pjRQBOFdXz7Macx3ju1UJ979SI3jTj0ziXQTma_2hOh4AErBwWQbmozBXh-aBQq11SFcowiEQG7zHE4Uj6y0pvYaIbLX_FlRo96sCMCEuW8GpAiDtdQ2ZmcrggjALUVXRvaIdE807d5_v4Vj7c2oK3fPiCRpB46J16PaLzjB_u8rux2Vk7YB0mXIcngCHMrXo4Uzh3xrYFp7KJNofhvwTNZ90XiM03qTbPTW-WO94ypNAujxcmg4racThvyiQkiLGJr8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:40:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:40:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040838303477; path=/; expires=Sun, 19-Feb-45 12:40:38 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3328569428; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040838289501; path=/; expires=Sun, 19-Feb-45 12:40:38 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:40 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0640061523 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=97511 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:40:28 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AOHmUB7K5DXzQB4MDNoua-4ibB8iAlSas67XDGp2jnNsoeKDICqfkSVz 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=0323161756006772G 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=204b57b2d1d40 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:40:38 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=S_JZeGbTfbQSRdlCerwckMN8aSRXje8gcHbZHe8BN096H3-PAf5nO60A851IvC0RXF2JdpRUwCAQxUvnvSGhXeJohwHExdV02ObYLFzYkQqB7A9W58pE5gkYn4fXVXVy7GdbEgHPTdfXX0zPVCAGu5iCttc2HmPPxc8-WXU9FPj41Aq3mxlm9g7pjRQBOFdXz7Macx3ju1UJ979SI3jTj0ziXQTma_2hOh4AErBwWQbmozBXh-aBQq11SFcowiEQG7zHE4Uj6y0pvYaIbLX_FlRo96sCMCEuW8GpAiDtdQ2ZmcrggjALUVXRvaIdE807d5_v4Vj7c2oK3fPiCRpB46J16PaLzjB_u8rux2Vk7YB0mXIcngCHMrXo4Uzh3xrYFp7KJNofhvwTNZ90XiM03qTbPTW-WO94ypNAujxcmg4racThvyiQkiLGJr8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:40:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:40:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040838303477; path=/; expires=Sun, 19-Feb-45 12:40:38 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3328569428; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040838289501; path=/; expires=Sun, 19-Feb-45 12:40:38 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:40:39 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=2iVyZMh6FxMMX6nSE31CcAc5mGbs3LvWczHPWoX16UNWpy2rWkmpQzR7nw6UgXJiU0BTq7lqt9S68VCcB8VxPoRbuSNB8N7-l5pt0p3xQ65h1yRRJK7Mp2lH-6oQ_-qoq4eVW8tj4S6ZwAiZRnAJkFjGz4lUxdPpo07Ehbir-9iZ4dDFuY4T_SorDJrjYICeAGT2DTT_TFWpTSIBVXWq5bJl8ECyctrSrS1LsVLKxiMUU0nxKZDX-aWpmhwL4S0VaRrccePUQ4T7hUBUGk7E-WSePkXwlxVSIum-otsaLwSG5dUhY9yXB4gp5auoA0xlz85POfKMlD8JpTEhpZwVUZTnPxfxcvfOd7-4JOoEyWgMyOkWpyzp4goVd3kPlAsT_17W3OPPmYIDR7rluwEppxnKvfWqZ9VVYphd8kavuLC8zqVG5Pir3ztW8bu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:40:40 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:40:40 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040839736894; path=/; expires=Sun, 19-Feb-45 12:40:39 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3345346644; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040839723587; path=/; expires=Sun, 19-Feb-45 12:40:39 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:40 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:40 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:43 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0642337271 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=57962 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:43:07 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AHOS0s54GGOPzrdYpJKmwJ2OLPzHAPiF9a0QfHSbjz0dgBAorT6gD0O4 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=6WE397653G701381X 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=35e97526c5cab 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:43:10 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Vv1XKXeO8erZkNYdSLUTAfs0vNnGy3nHKquhdRFU3XLkCdJQtClmPhMAe-VEQYVtohsn8beIDGOJ7aOcFTlLmbFNruVDMNSOrWy6AIf_-C9NAUP8FVgRCzvW7Z9qgjI3y6bayPj3QWQvtTMqg_5uxDckPl-pMVrqjuyBHy4jIe-hoC8qe40mdzrCXiB3yEh2v0aMtm1Jg9_V5c0DcMQOTGjwvN046EU59bup5ylt2xbBzJvuxQNqlk6bmNSZ9nUZsSGoABhEZJ1AO9lviqkjreO86rHb2ZKcatFYurL_Tcil1vNKQNM85D8oPJjKyPReuTKfhg5W4wb_McpJ1_qNOCky_Wtl68qur0F1PQCYq_cEikz34zrcqiKf8C9uVmVgUq52FL42KS4OpPHqTpNztXuuEBNQYnYWoNQQ2bNXTB7zsNBwRLURwC5TGye; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:43:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:43:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040990681491; path=/; expires=Sun, 19-Feb-45 12:43:10 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1583804500; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040990666213; path=/; expires=Sun, 19-Feb-45 12:43:10 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:43 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0642337271 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=57962 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:43:07 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AHOS0s54GGOPzrdYpJKmwJ2OLPzHAPiF9a0QfHSbjz0dgBAorT6gD0O4 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=6WE397653G701381X 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=35e97526c5cab 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:43:10 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Vv1XKXeO8erZkNYdSLUTAfs0vNnGy3nHKquhdRFU3XLkCdJQtClmPhMAe-VEQYVtohsn8beIDGOJ7aOcFTlLmbFNruVDMNSOrWy6AIf_-C9NAUP8FVgRCzvW7Z9qgjI3y6bayPj3QWQvtTMqg_5uxDckPl-pMVrqjuyBHy4jIe-hoC8qe40mdzrCXiB3yEh2v0aMtm1Jg9_V5c0DcMQOTGjwvN046EU59bup5ylt2xbBzJvuxQNqlk6bmNSZ9nUZsSGoABhEZJ1AO9lviqkjreO86rHb2ZKcatFYurL_Tcil1vNKQNM85D8oPJjKyPReuTKfhg5W4wb_McpJ1_qNOCky_Wtl68qur0F1PQCYq_cEikz34zrcqiKf8C9uVmVgUq52FL42KS4OpPHqTpNztXuuEBNQYnYWoNQQ2bNXTB7zsNBwRLURwC5TGye; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:43:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:43:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040990681491; path=/; expires=Sun, 19-Feb-45 12:43:10 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1583804500; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040990666213; path=/; expires=Sun, 19-Feb-45 12:43:10 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 12:43:11 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=AQtpSZY1lfB5Q1RBhV9ADC_k0SWRzR47ApYZB0qis-IGQZg8JBQBvc9SIdry9aj2x8zTRSDBAvHBbxbyKE-FPQaSlOtnGQ0oqoPDP1IDYbgAk58pJutaaDGIo27b8pWoHEAkFBmz6wFu6h4JsJbWRKYU9Q7QaGBFuP6IHk_-SwYKhLrPcPwqWi539uB_iX9a64kM151KLoU55c5OTvVDlfPBZfI9seOwS3jtY3bcpOUFZkOEvAczKc3M4DTOkUsgp1nnaZj9hkqz5HbsGUNjkjrrMd4dcCeMlcjw7ZAo8T03aXtlsjb2848Q2DW-VH72QxDxcmelRcEOz-kwv3VhpyTTKb2KbtMH77ytUpxmoETVIBZ7a7vaApKKIbFWdfX2oZ1yJaEbG6YEA0hnUxPcsh0z7Hc3tho0DCOwrRZ8y5Bd6GCWLZL7hpqBIUe; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 12:43:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 12:43:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425040991890854; path=/; expires=Sun, 19-Feb-45 12:43:11 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1600581716; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425040991876429; path=/; expires=Sun, 19-Feb-45 12:43:11 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 6:43 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 6:43 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 7:21 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0651364074 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=24924 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=05:21:28 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AZsMAD7lpF53UaZFve4baDUmTCMDAfgbaG9rkFLHUrztIzNrIUdMHqbi 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=4NV923280L874770F 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=313de8de687 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 13:21:33 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=pZHXGlGMGhyrxw7c1PRKFDGY5ypNQSR6X7abH3eO6M9zZ0GpP6RPVttXzFilVKjZYuiMtIer9huscRmZU62GnD9Swpnte6G_TIIN_bqkWErledGJ7afmuSEhIbYAALR-IxIXnjZ7SX04UT0fxpaVejXmFcm2T5rEnczq30Rw7Xidp7xatfW2bbSLm5igmVrisnOz3ZeINBzTTuGbdkm-8JKBGfxBrAiakpOR29NuIPOGvLQX1wPLS92BXoL5EK-JcqrlKcoRdd423yKeUPxI-fLbfaEoNn8ACGjU0TFGuh38hEiwaH2f_Lzu1EVwA4vxXjX0yfyyx0rqDAm78Neb1myKXwzZGyb7oDqIMNndaAJA-A5-9pIO99ad0Wx0bGnPqev_JK6a163TVWkraJ5BquU43mQk2NNqyiIxZxbsxHXees6d3Vuick_zF6u; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 13:21:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 13:21:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425043293229840; path=/; expires=Sun, 19-Feb-45 13:21:33 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1567617108; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425043293217116; path=/; expires=Sun, 19-Feb-45 13:21:33 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 7:21 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0651364074 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=24924 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=05:21:28 Feb 27, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AZsMAD7lpF53UaZFve4baDUmTCMDAfgbaG9rkFLHUrztIzNrIUdMHqbi 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=4NV923280L874770F 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=313de8de687 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 13:21:33 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=pZHXGlGMGhyrxw7c1PRKFDGY5ypNQSR6X7abH3eO6M9zZ0GpP6RPVttXzFilVKjZYuiMtIer9huscRmZU62GnD9Swpnte6G_TIIN_bqkWErledGJ7afmuSEhIbYAALR-IxIXnjZ7SX04UT0fxpaVejXmFcm2T5rEnczq30Rw7Xidp7xatfW2bbSLm5igmVrisnOz3ZeINBzTTuGbdkm-8JKBGfxBrAiakpOR29NuIPOGvLQX1wPLS92BXoL5EK-JcqrlKcoRdd423yKeUPxI-fLbfaEoNn8ACGjU0TFGuh38hEiwaH2f_Lzu1EVwA4vxXjX0yfyyx0rqDAm78Neb1myKXwzZGyb7oDqIMNndaAJA-A5-9pIO99ad0Wx0bGnPqev_JK6a163TVWkraJ5BquU43mQk2NNqyiIxZxbsxHXees6d3Vuick_zF6u; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 13:21:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 13:21:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425043293229840; path=/; expires=Sun, 19-Feb-45 13:21:33 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1567617108; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425043293217116; path=/; expires=Sun, 19-Feb-45 13:21:33 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2015 13:21:34 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=0uIb17bfd5rQaUT_QW8MsVpC8sZprle_IFWNLQIROVzPLEnV36L9nh12UoBzT5YDnAxHDqt5hHpJH6BYRevhUKxPm1P1SueEZ-VyFcU-ibSK4XCPKUZb9kd0xZtySqj20hS-nfTYkiT1yV3pMiddSsQSrYct2CMSX-ptQ9XSzvlvS7_9OzvssBtDGWUQNABN5FKPJVQfBY6Pcpxuz99XVnvnsy2jh54H9sPY3Rixp5OWs1Hq4iGNxp9J9gy8Y02B-KkdF0A8k2NBe934Xuo6Ri0dl5BtW92DDGQqgH-OEpejpPh1bMgoqj1L1tqOhGpeyD3i60tqIVeACAAU1WhpXf9noeemqRlTW2D5FGupdUFIsHfjkyAEDn2eyQ-73slYZ9EfTzpPFAcaKnDSt1jayQtt6KqKaeZQxYWkA6QB30Shem-gXzlPjsyzNOK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 24-Feb-2025 13:21:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 26-Feb-2017 13:21:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425043294469947; path=/; expires=Sun, 19-Feb-45 13:21:34 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1584394324; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425043294455344; path=/; expires=Sun, 19-Feb-45 13:21:34 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/27/2015 7:21 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/27/2015 7:21 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/28/2015 3:24 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0324244110 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=37778 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:24:48 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=ARLVDP2L.4MqfOFJIuBr1CdO9YBnAEmnX5W5AyVupwCApgO.Ga-vJLSs 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=9RM62448ME8376612 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=3605d7cfbebae 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:24:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=HZQCtQbuFPTig5fNibFCEd7v9cw3bpy9nx9bakCmMLJtVKhNtErUnwvYrnSQDXeeS6lV2x4IN300imU9tWREZptnrdjGqb_FGW_0wzz_qdpsJhexKJFLXA8mdz7LzCm5njU4V_SwhdcK2AgKZNXP9Nd2pnazxUvO80a-UgtMuD8PSHKMm4BoL2rIDv_LBW_srRG24SzZ2brgYtyxOWaD3fQRvO5cCR1sRmMa5QIPwiQRH33pXEvF4yFW1LkBPGvwn47YvAEAYGZrYOS8W40Z4ITo5Xg7OZteDjByB10LRRVvTRb3vhRF061BkYEnweYfv6BWZ4BdW6E3ZHG-EA9_fU98HvVMYnwG5AvrQpl8Qo_rhuQBTQa-i49v-NiZRwugehSSaZO0IOscQPuHfStGCJ-Hc5Wke6IjHtFQiXN1TLRKiU6cOp7VWzW1Y9O; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:24:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:24:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425115492973609; path=/; expires=Mon, 20-Feb-45 09:24:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1686761812; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425115492959228; path=/; expires=Mon, 20-Feb-45 09:24:52 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:24 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0324244110 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=37778 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:24:48 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=ARLVDP2L.4MqfOFJIuBr1CdO9YBnAEmnX5W5AyVupwCApgO.Ga-vJLSs 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=9RM62448ME8376612 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=3605d7cfbebae 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:24:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=HZQCtQbuFPTig5fNibFCEd7v9cw3bpy9nx9bakCmMLJtVKhNtErUnwvYrnSQDXeeS6lV2x4IN300imU9tWREZptnrdjGqb_FGW_0wzz_qdpsJhexKJFLXA8mdz7LzCm5njU4V_SwhdcK2AgKZNXP9Nd2pnazxUvO80a-UgtMuD8PSHKMm4BoL2rIDv_LBW_srRG24SzZ2brgYtyxOWaD3fQRvO5cCR1sRmMa5QIPwiQRH33pXEvF4yFW1LkBPGvwn47YvAEAYGZrYOS8W40Z4ITo5Xg7OZteDjByB10LRRVvTRb3vhRF061BkYEnweYfv6BWZ4BdW6E3ZHG-EA9_fU98HvVMYnwG5AvrQpl8Qo_rhuQBTQa-i49v-NiZRwugehSSaZO0IOscQPuHfStGCJ-Hc5Wke6IjHtFQiXN1TLRKiU6cOp7VWzW1Y9O; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:24:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:24:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425115492973609; path=/; expires=Mon, 20-Feb-45 09:24:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1686761812; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425115492959228; path=/; expires=Mon, 20-Feb-45 09:24:52 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:24:55 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=sXUoCUFSnITrgw6cDA6YP7yuLvF1qRr-joMsPEkez2TRNwH9L15y9MUMoypCf8vYvYin4X3uKm-Ij4qFcOpoLlsR1PVKZpV3ppKJ6EG9PyBzVJXv4GV6Y1y776FeOte4Z-gDqrWQWXgMCQx7SBvKrW--reDPBS10gO79WE467ujqEI0ftYReNU-iaJII9n9CmdkDke6WMe2o6AnaFU1aOfqlJScM1FxI2YMtL1e4Z9G-hqneOkwPe-AvHJD9pcWRy7GHVgBnynmBoxN_r-GRfZ-OP8eLh2_Gt9q1h3AAlc7zfFb1s6uNzEWMJiVFUyXCpVlWukOZ2W4UsTGclra7a2TISphAC0DqHjQIvFglQEXIsoqKqX-x3-zRwL5TnZIW_GPplTxmkLtN3guKSnsqvbsuPFOa0IFJL7cn5UetMJ5WN6cZznaCxv-v3uy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:24:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:24:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425115495307881; path=/; expires=Mon, 20-Feb-45 09:24:55 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1737093460; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425115495296405; path=/; expires=Mon, 20-Feb-45 09:24:55 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:33 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0333107170 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=37045 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:33:35 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AfULW6Yg7HpzhlJPiWBarUJqsKoKAuCm0MZMAmfYOno0zOjt8fTFO.qP 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=16J11184X9494874P 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=3a7e86dcbc9f0 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:33:42 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=TyH4GXPbKw8iPdQr0eu8Q3Fz_ykemK1L_LpSjystY7nyEemOEingw5KXY501rQMeO7MkN25TLJIY9nQkrt2kcq9fHXrDLlbBNktpSl99SHPAh8WgQ-tFygre_PzEaNNJW6Pq5NXxLdmcu4PUyJEkxw62de_vMp9J913HfMZrqayTttbyMk61uRKDEWOzLprLSm4u8pxdqsNH_uxYReN8uNjnMaruGVxnNih1LnlYBZpcoTBhl5pxzGpxRuwnJxLbH_zQtxDdsuuY3DJVdBOaPsf_XL2nbMJyLD3Nvuh-03E_jaV7P9nMnmVUHDlHt2o7ET9vRbhW4SIr8Fl05QM6e9aFyDpEtfzFfoCuNOKH1IncjO-04YsJUnLHanZ0XNQywHnKJ_o1GF2ROsIUCgwf27vZozjrlMDNih18EdCsdYliTE-Azjd9xW2NSmW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:33:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:33:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116022469331; path=/; expires=Mon, 20-Feb-45 09:33:42 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1988882772; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116022457722; path=/; expires=Mon, 20-Feb-45 09:33:42 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:33 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0333107170 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=37045 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:33:35 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AfULW6Yg7HpzhlJPiWBarUJqsKoKAuCm0MZMAmfYOno0zOjt8fTFO.qP 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=16J11184X9494874P 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=3 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=3a7e86dcbc9f0 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:33:42 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=TyH4GXPbKw8iPdQr0eu8Q3Fz_ykemK1L_LpSjystY7nyEemOEingw5KXY501rQMeO7MkN25TLJIY9nQkrt2kcq9fHXrDLlbBNktpSl99SHPAh8WgQ-tFygre_PzEaNNJW6Pq5NXxLdmcu4PUyJEkxw62de_vMp9J913HfMZrqayTttbyMk61uRKDEWOzLprLSm4u8pxdqsNH_uxYReN8uNjnMaruGVxnNih1LnlYBZpcoTBhl5pxzGpxRuwnJxLbH_zQtxDdsuuY3DJVdBOaPsf_XL2nbMJyLD3Nvuh-03E_jaV7P9nMnmVUHDlHt2o7ET9vRbhW4SIr8Fl05QM6e9aFyDpEtfzFfoCuNOKH1IncjO-04YsJUnLHanZ0XNQywHnKJ_o1GF2ROsIUCgwf27vZozjrlMDNih18EdCsdYliTE-Azjd9xW2NSmW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:33:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:33:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116022469331; path=/; expires=Mon, 20-Feb-45 09:33:42 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1988882772; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116022457722; path=/; expires=Mon, 20-Feb-45 09:33:42 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:33:43 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7HB1GmzAvP_kTVWYae2KuAiXYuWdPAijK63hXAWzWedAaM76S16UDyF4a6uaGOsoHU3jRAxBalOkK51V687YBzidxAtfgje3mgKMwl2Bt_5ipvWp5lLZ5x0EP1pmqNvDffIRRSPtcTdiBbKjGmSAFEvc_kAQaCnLC9flLIrvlG5a0h6NYqqHKIagKaI-1uVgYJW6Fo6dAyPTFuTFYFPa3oYBFm1japqSKOph9bw6rnOxQvY4wIzQQbfgj4d-WH8aqhBvbVB0sN1_hlpFfZdkaWTCprHy6CWdtv-AzHe_O3Ii62N05VLISl8GAlldLMqYj8VIxwyuePEcGJSZPH2u27WVQ2VYvUM8XWbT7M1W4FMDGC4jsJwSajfr4w5shzetauOgasO6Ob4229gA1ytK5j8KdHScPH_fxW5MTdp7Gah4x_-ymLqhyiwoazC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:33:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:33:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116023664497; path=/; expires=Mon, 20-Feb-45 09:33:43 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2005659988; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116023648941; path=/; expires=Mon, 20-Feb-45 09:33:43 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:35 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0335023160 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=65930 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:35:23 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A8fr6PVzj678oD8eVFIKEUZdcHsAAEo3MlzMNW0LNj1FNDcQuOs6nyO8 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=6YC27152FD4156328 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=195cacb3a7c36 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:35:29 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=RLoCruMTSqnq9P4E-Q1rdMn4FI1Yl86rKApCd7W7Z2qsrkbiO2K8Zyx3NMpcbbppPGl3Uwy2GCvQkbpftf8k5B6j2B7ywEUct6IEB8yTkMD2pgeawfmo2Xucv0p87qE_GddudUzdkfN8_EjKbCxy1enjiXYUE-SIZ_jEF-DH0baIZJ-8y7TsZvvbXbkZWgHezLNtYNTsXDoLygWvm6RRQscGJ590QAd1DJdR805j3PlohH_iU7MG63Ng79oLOlM0hY5-O5l1iy2gYcdtcYPeiT8UgO-WlZv_vZKCut2yz79sFr_cPnEo307k2eNPqeNo2xdl8kQI_YjOWwgkq1mfi4-o17HAmNbbEUa9dkT7Zj9YSVYEk75AVw6jNkVmqupslGhk01gDQHkxbN7bcW5ITOMFYWTZ4tdzMFF7Os1ja6Rh16-Q54y-Gi7yPDa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:35:29 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:35:29 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116129220164; path=/; expires=Mon, 20-Feb-45 09:35:29 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3784044884; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116129207774; path=/; expires=Mon, 20-Feb-45 09:35:29 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:35 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0335023160 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=65930 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:35:23 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A8fr6PVzj678oD8eVFIKEUZdcHsAAEo3MlzMNW0LNj1FNDcQuOs6nyO8 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=6YC27152FD4156328 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=4 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=195cacb3a7c36 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:35:29 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=RLoCruMTSqnq9P4E-Q1rdMn4FI1Yl86rKApCd7W7Z2qsrkbiO2K8Zyx3NMpcbbppPGl3Uwy2GCvQkbpftf8k5B6j2B7ywEUct6IEB8yTkMD2pgeawfmo2Xucv0p87qE_GddudUzdkfN8_EjKbCxy1enjiXYUE-SIZ_jEF-DH0baIZJ-8y7TsZvvbXbkZWgHezLNtYNTsXDoLygWvm6RRQscGJ590QAd1DJdR805j3PlohH_iU7MG63Ng79oLOlM0hY5-O5l1iy2gYcdtcYPeiT8UgO-WlZv_vZKCut2yz79sFr_cPnEo307k2eNPqeNo2xdl8kQI_YjOWwgkq1mfi4-o17HAmNbbEUa9dkT7Zj9YSVYEk75AVw6jNkVmqupslGhk01gDQHkxbN7bcW5ITOMFYWTZ4tdzMFF7Os1ja6Rh16-Q54y-Gi7yPDa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:35:29 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:35:29 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116129220164; path=/; expires=Mon, 20-Feb-45 09:35:29 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3784044884; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116129207774; path=/; expires=Mon, 20-Feb-45 09:35:29 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:35:30 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=brNwPPWXP3MO-ur5EU00fov8Ru3Cmc2X_7dOBzkQ1nKw4r0U3M8MAOS4Cev6qWJFZdIjWHFR25PcUA8jrIBYK6VQZTqiqE7w_0KCe5JK1tBpV7ebAPAcbvTvLljU4oFFsfMwfsLoYEh2CCG30F5w8FAZa9bFj0iR6eBU56iaRqmGjmoKPouVX9A_b-20RpfezBRrLVthVwoulU0f7Mqj3Ko_FTY1KlMEiMJjkW3ytpCb33RBZDCVsb1Unm6KIl2tF8qpYtc3ZWAHw2G_FPcjJGmcrWG4NpsYobxo5kms97IY8W7pJ3QONNP3UNQIKTen1AVMITjKlYKe90Y1My86abnO08_q6EajIpLeLgYGZ0xAWezofZNhi3Nikj_7-maFDGpNAR9FgH0_hXRONtiMZZC11VMVx2HvPpMvOZPYEIIcN7ospSsEUACOMle; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:35:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:35:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116130450456; path=/; expires=Mon, 20-Feb-45 09:35:30 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3800822100; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116130438686; path=/; expires=Mon, 20-Feb-45 09:35:30 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:49 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=10.00 
+invoice=0347463517 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=210 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:48:55 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAEF88bRMFLa5rd06zkkt2AdJEoEy 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=7LF70608W0584003K 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=10.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=10.00 
+ipn_track_id=f9a7cef47ddeb 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:49:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=QIIrD8Cqx43bk2cIARFLEwG3mhmisACn1TE-8pUX0UhyLKOuCuy4j9xaiHngJaxsIpD3rvszMsuj8cQp3j8Eh19P9OXb8Udh2inJdM17qhPyVUMcgRAcXnpmmhaNuh6LJ_KdSjaXr8yIybQe_S1TX_GoKeQHYfnq5v_XbnT6XDDWxSSsrrmq1JuBH_AQeEmQk1duCPIoB9mX1NHZVgPJYhxiGJIJt6wfh_0oHj8Y58C6CNvIrW50b_82hInJTioKVh0vTMKr3A-dmcAlmUcejYsqFVkWZtLvHBYiJUGu-9lg36dfbcO3cdaCCew6mHYI0BR3FvbRjsQaqIlSrQQVjtfTCxvpvjBLZJWkqUpL5Q6aXifnipPVXFovI0x4F568mXCxJPojpEBxGM4H6o1l3190qPMfzHHx8Mj5MbYWXc8JoEDE7viGXRnDq4S; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:49:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:49:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425116942428025; path=/; expires=Mon, 20-Feb-45 09:49:02 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D244314452; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425116942416075; path=/; expires=Mon, 20-Feb-45 09:49:02 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 3:56 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=24.00 
+invoice=0354128944 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=57385 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=01:55:53 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A9LC3Qajo-H2V8mPq4eIktgPvG2RAm74RB61Wbv3Ep6NuC7KJKXOOmba 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=01296398JC065094B 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=24.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=24.00 
+ipn_track_id=db44681ca3d0d 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 09:56:00 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=PulfMiLYNwLr8aJU1piKtc9U6u2je73NtIs6umkrZ3MBovJwu9WvlSrFhy-_R1uQEnx29CRZkQBbJzkF_dY4bQ_6N17olRg00c0aCJ6s89mwEO02lJTaizPWClwqTrvvzrIYs0CIQq4uYP2Jhpj-R3lmgWzKhLndzBcg_1uDaE0PnFaLf0DY8pLRC8KNrGbV97Zmj7OdqLR7udFohZr5fsy09o55nbgM2d4y_OlPTbiVtsnDQoumDg4lTN10y6wLIn9uFCnFbut_2P_oDx_oqx-ysxFjpKAKgyk8JXdAvOsqR__pzPt-uOKf4w2XkssFBmZfEO6T0rw-GzUOmCvZAnqi1K98JeEjhkQSbPekPSHzpTlZzirbfAO1XYvWqdCZhOpnlG1m7NFxEFWZvTOqaBQiyb8vZrDjqiWit1jVaIw6o_GOo3GEN7Z5gj4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 09:56:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 09:56:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425117360140991; path=/; expires=Mon, 20-Feb-45 09:56:00 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2962288980; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425117360125122; path=/; expires=Mon, 20-Feb-45 09:56:00 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 4:13 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0412287324 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=57692 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:12:55 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AO2luzqC.zUGUSlDA2AQyG2CAJ0vApmsOSwJc.L5TPr7G5HurDQm8yME 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=50W89719XB572574W 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=a1c7b1ff5f59d 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 10:13:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=5a2wvRV_GUBtM9ZtJ9uKAdPIHF7_JGmjVK_9rW9uEVNEU0TZ0zznysSalIZG1cS3zJ-93AGopSQvyvujgE-H_s4loTZzm5_GEG0oh38CzTAMaykUtzrweAq4ewxBv44NYhawzj3gNKDq47Rjh-dT0ytByqKy_sShJrH6xDXV2_h6kOsLz20T6M7UZc5ysECiZvDwSQBpyJHgEypMH-i1b7GBJTgS5xBCSRJ8TkOVUxr6XhQThnmwCLqbSsSmNwJ3E_10NPMaDSe-qCBLfC-ovrAW9xoiN2tDmMi3x1MsxeId5E9cpLdTR_HXYQmXJhEEI1s-qBgwJePWfLh33eQdt2gb6qu70sBldvhG00Sd_dOUUpn9zwYr0JvBnzdlwWsBctByB8QD0r61YDSj1TUP4rMrVGTBTca-W2IkRdTcxuqqEqwZiTc_1MPNhpq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 10:13:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 10:13:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425118382347941; path=/; expires=Mon, 20-Feb-45 10:13:02 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2928996692; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425118382335936; path=/; expires=Mon, 20-Feb-45 10:13:02 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 4:15 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0414367806 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=42825 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:15:54 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AV7kvU2SP-IVr.aZIDiHUYYituJtAgxUTbtHir3eLwlQN0NXRAMDpmbZ 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=3F5108859N899874N 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=2cb65bc5db2e 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 10:15:58 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Mxcg_J1ZJmI7ftwiZisrlL8XIbUOBggmjzwuRGxhBdYK-NRq7Hhnv_VHQuronOI_GxaefCujlcCYVUDJ2s--E8VtwAZNpj0xt29W3clnVUBsVgZpdcv_K8gCgwIhbBj303RUawmJVyxmVwIvBa-b9bKj6b3s0fUIVkt2nCOxUrGunffV8aARUMpzmV0fkUOzgySqOYI-3FHZ1FLStl6_bkSmSmCu7PsNXAfEE03RUJTY1PYseK_-l3L7l2fbHum8NCCiU2yMZv8NvSsKqiH3HBe6CIyJqjctOjHocUXKGLnQImqSOCRIi2hB0SbUPa2ScSOaws77DE4X8-OTBnfZsNpnVYt0BIHk8rsBVZlJZgKnzsRtiS1xRiYfllqGnvO1PD6kd68ToNnBawnzCi_dQg1FPWFdfvP8P9RkO68zkDqP24Al_gnrCUPeu6C; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 10:15:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 10:15:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425118558972301; path=/; expires=Mon, 20-Feb-45 10:15:58 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1586884948; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425118558956166; path=/; expires=Mon, 20-Feb-45 10:15:58 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 4:21 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0420418361 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=77901 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:21:26 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AnTY.MSH9oodBm6kZFF66vHfzG.aA-zLfCVYZGm7-9XNVXhck1ST8b5c 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=48W148939U851683S 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=2 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=461d53b3da297 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 10:21:40 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=f15jcTPYtKaT4fb60bPAmkwNVJvG-ae0sUw0o7FnlrxAn5-KF4CpjzUuPBMbyazSfX_PVPvPIARDA0B_DYY7GKKceXklrua90hch38HFalbFeGJR9XoPPuN4OkOoUhKnyZySqbaQ53-GvVtFfKnebUMeV8CwULQ84RCL0Onecgm7EmdWEbRGFmgmREto6GokTVD0sXn_8qyxXsLjuP5rKcBOkTrUaCo5kqPyd4upv7IXw-GC7j30zTz5bSLkG8IytXYJScEw5X9Ed89-9PdLQC8aA4KALIiZBntWTjUI-D4fqITwc3TJO1LwBz21Aaa45imqgRwNcWbEruUNBoRNj8s_rGxstp06zqMIziSAqBpTjLPkCiU8o6xl9FAOad6t5MxEKCanQbwjSA4ufaFUUuhmOH8lDTwX1Y6BCKd-n8iwKUBw-nx0RKZqGCW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 10:21:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 10:21:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425118900828611; path=/; expires=Mon, 20-Feb-45 10:21:40 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3029791060; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425118900816433; path=/; expires=Mon, 20-Feb-45 10:21:40 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 4:44 AM] - FAIL: Validation post isn't from PayPal!
+[From:112.196.39.163|112.196.39.163]IPN POST Vars Received By Paypal_IPN Response API:
+IPN Response from Paypal Server:
+
+
+[02/28/2015 5:25 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=0525033821 
+protection_eligibility=Ineligible 
+address_status=unconfirmed 
+item_number1=67506 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=03:25:50 Feb 28, 2015 PST 
+payment_status=Pending 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A2DsBQ8ztLgLCO-r.j05bO28IjPCAGEzvCc5LxM3eMsK.56T3yiWRsxi 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=7HC578444G291274C 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=raju.prasad21@gmail.com 
+quantity1=1 
+pending_reason=unilateral 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=bd2d9aa3351a6 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 11:25:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=SJ6PruUz2W4obNXmAG3BwlwKZig0Od1AlsJkIj4Dt2DwtGydA-94TxJ7wKPxW6_Lm3C6NzeTGsbN5lt3CIc301RMQClxvGy5crHkSCgv0D4RHpVGLg_ccGjEovb5bty6C5HNWDui9CLPHeIJ_f-ROrcGmI9bxxoNQljP6gOyu8y9IOQVKo5tvghXX5KP8h_zpMgoFEA-PZMImnBre_Pi1RvvxOtvmkG0YUVCxYJYrJH7pnYPD8i4g3OVSXM3jOENKiEoDfStLL5mIJL1C01q8oSC82CQkP41-rTDUetMAqKFnP3J9lYfz1Xyx5idZCk2DfAG5TYik1bL8fFxl4byLkmiiy7gHVpwczOSGhfP9iJUeMG8FyvigTC93v0Jgh5v5vMuu50RhEzr4lgnB42zY7OMI3x73KHc-9Pn9WNCmBv6q6hgVzVWZONh3a0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 11:25:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 11:25:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425122752648556; path=/; expires=Mon, 20-Feb-45 11:25:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3232100692; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425122752633986; path=/; expires=Mon, 20-Feb-45 11:25:52 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 11:25 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=40.00 
+invoice=1124182138 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=74960 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=09:25:06 Feb 28, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=1.46 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AfBouqr5nnr8N1iT.KFMDHqC31LpAV1MrbfCToTvC7ZX29nBuyW0ZCYM 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=9H2903883V9753452 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=1.46 
+quantity1=1 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=40.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=40.00 
+ipn_track_id=b3dd9bb4a1c3e 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 17:25:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=0gyQd22lXIWxmOo2zGjXp59spAvUH5D0mJ1wspOynki0vv8uDBVqZ_USHIFhivQY53sQoydQ_3nZplLQ3aNulJ0zAaC4KoJCD8iBwVO_SLxkLFYls06VTvRAU6ys3a5m9rqoVd3S6f0HtxU5x8SKaxr-vW-ALCs_cMCwvWD2Hj-9hQ4ScNfi4bOiCWyXlKKztzJiEC6BSDAMau_RSXmhuI3K8asiSLlpqc_H24-0ORSDFUwbTFdPiW9AOxB9S8DVLSemd8Nqc1NGdov2835ZNCyXiAEuiCCuZojKweT-mDC1Rlc2EqFJSlteNrZyZdNPRIdHyEKMsSM0wFTn7WaVvaAyKuf58XbaqoZpO8HZceTQc_9IUHWQ-N5NcZyj3Vh__a-_euXLsP6qr1nE-AkeYg-nCG-7uRsIo2XsKyRCEkb-kzswkA4vSowGuCO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 17:25:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 17:25:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425144314104470; path=/; expires=Mon, 20-Feb-45 17:25:14 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4210684244; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425144314092481; path=/; expires=Mon, 20-Feb-45 17:25:14 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[02/28/2015 11:31 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=200.00 
+invoice=1130306653 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=76800 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=09:31:12 Feb 28, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=6.10 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Afa5F0BzLYj46zQPTOLCdPiYBU80AvaiSqLPzhdr.-9F33umaiffYfHH 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=99792155PS973861W 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=6.10 
+quantity1=5 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=200.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=200.00 
+ipn_track_id=23222a496a5ce 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Sat, 28 Feb 2015 17:31:23 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=OUTWLa-tw5w5wmk6irvk53uOE31AklIswhUQUIvDnJx2zLqboqYL6fjps6kQX2OXjkVyhOPbLq3FLZVoF66lXbAtfxpKcoS8sN414jwSFJURBL-mKHcyfAmEoNOV_yHl71SY04o1-N-eP6Q-qrEMNYEsOP8WWmPp2nOmdecyznSagSnOsjD8cubUzVdh-TkEvwZvXO5GOqXGfL9lX-FDVBOfHQC8ZL1dZGGEBwxrwyKoVhayuqnKWEOfdOKhMt7bIOCB5MPrhcVvjyDyPdVXl7W-3m8t-TMorujrLz2J-UGjIBvZKRrNsWrn1EIL35VjOWB0qgOTToNRc6o2izA32m3-YT1rHo4-pitL4x4CAfVzjVl-1ARN4-mGImuj4C0UuFu8cEbaAvotaF4E8-6ZDzuaWTvyrb3rxCwDGIuISIYSAoqM8lCtrqijNJS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 25-Feb-2025 17:31:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 27-Feb-2017 17:31:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425144683050659; path=/; expires=Mon, 20-Feb-45 17:31:23 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1811673428; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425144683038600; path=/; expires=Mon, 20-Feb-45 17:31:23 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[03/01/2015 10:20 PM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=2217308547 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=96714 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=20:20:06 Mar 01, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=2.62 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A8msfvnMhBZKBxHUH05gEBazAlpLAsU4apUBKk3ZV5VICJZXz3mHMnl1 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=1H027408KL752782P 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=2.62 
+quantity1=2 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=ed515d61cd006 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Mon, 02 Mar 2015 04:20:14 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=BYclHs7jgmdto8MvLGg9piGfxyyG_AKwTcjkkoboOxsQ6kkVAIxRMYyjLY0G7OJBaUNSdP-RTM6DucoeJcBHHJXs5mAxHJ2ZXP36NJ4_-2cFCpv7Ir-gvA_Uw8AgAgpXNMB6L6hEqot9dH4YKGfiwFtBc2ncgjYw8cB-PRf0BHQE6oY3gCgkpJz1IwoICm8FdnilAm7HZBn1p3RvuZ0F2amqu0JFrn4bzexUMNhkUspw84gGPtnl71FNTLPN8NtHhOOmtPWmfiWHico3ZwfurEa-po1_D1vfBMgPx4A814Ivs2OZ1fk1UULsBCfT7fvQwwsC2L4vHbjCltYX2xL5v8JGbNv1hsGuyNxKipJkIBOgQKYYKZ1nZ7ApWgtm006xAZff6QImLKwWtgflluhpQcZi7jQQ5_nj6igE84amyrC73sRl93SGwud7w5u; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2025 04:20:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2017 04:20:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425270014554532; path=/; expires=Wed, 22-Feb-45 04:20:14 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4276417364; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425270014540746; path=/; expires=Wed, 22-Feb-45 04:20:14 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[03/02/2015 4:35 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=80.00 
+invoice=0434446003 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=6136 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:35:15 Mar 02, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=2.62 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=A7UMedn1BfBoD5MMUf9mkg5VRRWMAKg-vkaYsqK-LWw.6IdTYr49fe-g 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=1GT755095R264003X 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=2.62 
+quantity1=2 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=80.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=80.00 
+ipn_track_id=c731f1cbba822 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Mon, 02 Mar 2015 10:35:42 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=4z3SANbx6s5U9Q9CZT0YJo4NDmwTon3GYpsRa1UFQu8-a0SnrR0xx1RqwecgfOd3dfG2dN0YbDDcDfxyy7ZBLsa2hBkyT7hPLignRxrphZIh7ha-U7p0XSZej3mVTzsQjoss_kFF25fg-Zue9Y1cYuKUZaWAsDCit_1D31jT6YlvCSf6Ens2-tzQ3IlDgdzBaO7O-qeTZsEvBonOlanG-jbZGTNWpW2BEHa2aNDBNOdbUubnKVbVsQmmff4kijvOFdpL5JWHsWEEdMHDw4WSBU6fYxDeE8f33iCAMIoEmwLQgJoYDsdxXaNof89-CcDhi0C_YkQ94qeGVO1QLflaHa6Ae0RE3ad3xqyGsHuAz0lKRKYGSnoKiyTnv1Tv731w0IGIJxMjeTDASYzk2YC930sJXsd5IxUMzPBiJBa0FwdHbnpJBMl2Y8v_sna; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2025 10:35:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2017 10:35:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425292542452586; path=/; expires=Wed, 22-Feb-45 10:35:42 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4265407572; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425292542440517; path=/; expires=Wed, 22-Feb-45 10:35:42 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[03/02/2015 4:37 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0437055681 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=53280 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:37:27 Mar 02, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=3.78 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=Av-jutUGYHCmia3yMoGy9.bMdWOyAG-K5WFQjMGMijL0JArerBGnYQ0V 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=9F079957BD125631S 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=3.78 
+quantity1=3 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=5a5fbe99a4bfb 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Mon, 02 Mar 2015 10:37:36 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=hpbYnavZp6rC6QrSakNO1P9QXjKbIpT9D0yu5cS_yjvJfHctq2_IrSDrNKjiyN6z2x0mxu9qbV1mZBG32J7ohwoZGf0oCjjFvJ89S4wJldouyrpE5ZolDT5fMRLVzrEZek-5YeUrLZrVYWaU5TTMGca774Imun4w-I7FJ41RjrMAoQwmftSX6PlNYGb1ov9DwGHmIyA_oX3uFZwOVwOx2D-N3x28_0-Fc4lS9JETlehg3P5orHY6Uqi3CLJ2OHpEUJ03JxeaapByZvRT59IJd42fbVav9huzpM6BzH935lYBToNA8afPt6PuVUA5vqsMJSc7Y_yXh34vzQLzpKlR5kIePVfkCI4unVw4b8fC2fEf9GJZLEbXY77m38pH3zuP9kYNKhu_fiznSI4GvvX_NnQ46Iz15mM_2PEGuaUm5A2zrJNDm47vuUUU2-K; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2025 10:37:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2017 10:37:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425292656265944; path=/; expires=Wed, 22-Feb-45 10:37:36 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1883108436; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425292656252667; path=/; expires=Wed, 22-Feb-45 10:37:36 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[03/02/2015 4:39 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=160.00 
+invoice=0438435497 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=40465 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=02:39:05 Mar 02, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=4.94 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AmkUK5g9l9hi2PI1urqxkAfiI428ADDH-kcq7NF7sZj9psboLadcGi0A 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=8M551323KV140505U 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=4.94 
+quantity1=4 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=160.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=160.00 
+ipn_track_id=7c31a5a4d6e83 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Mon, 02 Mar 2015 10:39:09 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=rGsjtcObU5yjQ2O4TJxK55rTsOhGo7AmEKV9VDrTJzoizv36xUXub286rHwIDU-n1Rd7mrsRIEDkahkOh1Tkm6yVTLAOHpw5u9Ey43JKWZ7ieOvqTIielc2POY3E00N2Y74HnwkDrE3WgfJmCpKdXYVstLv8n5xNADCmBOUEWCID1qaAwRe4xBvVJc0-N8nf7HNp0jnBKx3VklnHzHOyDQug67h7W8aa0gl_I9Fj3G_fw8beo1l9AhN0BjncHgxtsYDYMQCIff7WPT_kJYGas48FqpldGi6leIE3NDL-5z7GDegqIYVUn5HuikVFNYqnhkD7EybzCsLMz3AtVO84ZQRmxRdpYAKcDeYmjIQCWc8DghwAuTG2MN30ssm6iD5LKgLrRAvdEb-ApP7cB2Cpy-CnAP0CSitS_9J9o4rCvBkXg2EjvWeFORlM37a; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2025 10:39:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2017 10:39:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425292749320010; path=/; expires=Wed, 22-Feb-45 10:39:09 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3443389524; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425292749308645; path=/; expires=Wed, 22-Feb-45 10:39:09 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
+[03/02/2015 6:08 AM] - SUCCESS:IPN VERIFIED!
+[From:ipn.sandbox.paypal.com|173.0.82.126]IPN POST Vars Received By Paypal_IPN Response API:
+mc_gross=120.00 
+invoice=0608288303 
+protection_eligibility=Eligible 
+address_status=unconfirmed 
+item_number1=7415 
+payer_id=DQ84RPSGZXP5G 
+tax=0.00 
+address_street=CB 
+payment_date=04:08:52 Mar 02, 2015 PST 
+payment_status=Completed 
+charset=windows-1252 
+address_zip=160029 
+mc_shipping=0.00 
+mc_handling=0.00 
+first_name=Ankit 
+mc_fee=3.78 
+address_country_code=IN 
+address_name=Amit Kumar 
+notify_version=3.8 
+custom= 
+payer_status=unverified 
+business=jindal.ankit89-facilitator@gmail.com 
+address_country=India 
+num_cart_items=1 
+mc_handling1=0.00 
+address_city=Chandigarh 
+verify_sign=AgePMPfbDDc05TM5uouG2O9s9U74AWv5b6flKHk2pGYONGFxua5QWD6. 
+payer_email=jindal.ankit89@gmail.com 
+mc_shipping1=0.00 
+tax1=0.00 
+txn_id=8NV49186HR577615Y 
+payment_type=instant 
+last_name=Jindal 
+address_state=Chandigarh 
+item_name1=Converse Shoes 
+receiver_email=jindal.ankit89-facilitator@gmail.com 
+payment_fee=3.78 
+quantity1=3 
+receiver_id=VURLVCE3HY7QQ 
+txn_type=cart 
+mc_gross_1=120.00 
+mc_currency=USD 
+residence_country=US 
+test_ipn=1 
+transaction_subject= 
+payment_gross=120.00 
+ipn_track_id=1c68c5935be40 
+IPN Response from Paypal Server:
+HTTP/1.1 200 OK
+Date: Mon, 02 Mar 2015 12:08:57 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=VRNFK0Vt_ZZoHSq_4WkBALD4W9mw3XB3XTbVMDSVHmlWa9_t1kFudkF2SDlpeERUWUdWmUCNipkGfGTY3SRVdMTYKbsatHlQFf0p65CUWW8kSsGUcQNg4DgUzZ2r4m4DFOnpNkIMOuGxaYBES7AKUBEcQSJcs17JR7T0Zx2u-Ml_YSfMI0fQuHn2rtvMJNnbOFmpY5HrhVEdBkqtXS70v7v2Ln2Rq8BG9fpATl5t-_rZiO_To2g4II4W97Fjwl-sGUAyvMyBR1tVJJ_5BBJWT3OB8VCQMn9i0HHErDIH2L3QjqKPwcntQGaRhq2KWe08g2ou0wJmWd2rnLCKc3JI_a0m8fjRkRvj62Nk5nR9gEOtgAQEPcHmauCuyZ5vZaoXafq07ZEtHfkwGcn7jCutiPDbxIva7Pnu4rF1oDorHhnXYlX7uqYRFu1n-0W; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2025 12:08:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2017 12:08:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1425298137064491; path=/; expires=Wed, 22-Feb-45 12:08:57 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3646092372; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1425298137040562; path=/; expires=Wed, 22-Feb-45 12:08:57 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+8
+VERIFIED
+0
+
+
+
