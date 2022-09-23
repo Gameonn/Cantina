@@ -1,0 +1,52 @@
+.level-main{
+    height: 300px;
+    overflow: auto;
+}
+
+.items-in{
+    margin-top: 15px;   
+}
+
+.is-item{
+    cursor: pointer;
+}
+
+a {
+color: #428bca;
+text-decoration: none;
+}
+
+.is-item.active{
+    color: #fff;
+    background-color: #428bca;
+}
+
+.field[is-item='yes'] a::before{
+    content: "*";
+}
+
+
+/*#level-2 .nav-pills>li.active>a,#level-2 .nav-pills>li.active>a:hover,#level-2 .nav-pills>li.active>a:focus{
+    background: #68B32B;
+}*/
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff!important;
+background-color: #428bca!important;
+font-weight:100!important;
+}
+.nav-pills>li>a {
+border-radius: 4px!important;
+}
+
+.field .close{
+	border-radius: 3px;
+	padding: 7px;
+	padding-top: 4px;
+	margin-top: -6px;
+	cursor: pointer;
+}
+
+.field .close:hover{
+	color: red;
+}

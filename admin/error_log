@@ -1,0 +1,29 @@
+[05-Mar-2015 05:22:24 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home3/codebrew/public_html/projects/gambay/admin/order_details.php on line 64
+[05-Mar-2015 06:36:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/codebrew/public_html/projects/gambay/admin/order_details.php on line 142
+[09-Mar-2015 03:11:38 America/Chicago] PHP Parse error:  syntax error, unexpected '$dob' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 83
+[09-Mar-2015 03:12:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$d' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 83
+[09-Mar-2015 03:12:31 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 86
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[09-Mar-2015 03:16:08 America/Chicago] PHP Warning:  Division by zero in /home3/codebrew/public_html/projects/gambay/admin/customers.php on line 90
+[10-Mar-2015 07:33:51 America/Chicago] PHP Fatal error:  Call to undefined function lookup() in /home3/codebrew/public_html/projects/gambay/admin/eventHandler.php on line 88
+[11-Mar-2015 00:38:27 America/Chicago] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /home3/codebrew/public_html/projects/gambay/admin/order_details.php on line 88
+[11-Mar-2015 02:04:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/codebrew/public_html/projects/gambay/admin/order_details.php on line 118
+[11-Mar-2015 02:56:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$redirect' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/admin/eventHandler.php on line 114

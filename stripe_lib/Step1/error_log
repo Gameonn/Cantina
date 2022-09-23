@@ -1,0 +1,218 @@
+[04-Mar-2015 00:36:16 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 4
+[06-Apr-2015 06:40:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 55
+[06-Apr-2015 08:29:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid request. Hint: check the encoding for your request parameters and URL (http://en.wikipedia.org/wiki/percent-encoding). For assistance, email support@stripe.com.' in /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php:65
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php(113): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php(53): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiResource.php(17): Stripe_ApiRequestor->request('get', '/v1/charges/%7B...')
+#3 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiResource.php(8): Stripe_ApiResource->refresh()
+#4 /home3/codebrew/public_html/projects/gambay/stripe_test/ in /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php on line 65
+[07-Apr-2015 08:43:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$customerId' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 80
+[07-Apr-2015 08:44:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You must supply either a source or a customer id' in /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php:65
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php(113): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php(53): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php(39): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home3/codebrew/public_html/projects/gambay/stripe_test/stripe/lib/Stripe/ApiRequestor.php on line 65
+[08-Apr-2015 01:56:21 America/Chicago] PHP Fatal error:  Call to undefined method Stripe_List::create() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 102
+[08-Apr-2015 02:00:18 America/Chicago] PHP Fatal error:  Call to undefined method Stripe_List::create() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 102
+[08-Apr-2015 02:01:38 America/Chicago] PHP Fatal error:  Call to undefined method Stripe_List::create() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 104
+[08-Apr-2015 02:05:25 America/Chicago] PHP Fatal error:  Call to undefined method Stripe_List::create() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 102
+[08-Apr-2015 02:11:22 America/Chicago] PHP Fatal error:  Call to undefined method Stripe_Charge::refunds() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 102
+[08-Apr-2015 05:04:57 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 21
+[08-Apr-2015 05:06:22 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 21
+[11-Apr-2015 05:29:11 America/Chicago] Stripe Notice: Undefined property of Stripe_Object instance: status
+[11-Apr-2015 05:30:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$customer' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 58
+[11-Apr-2015 05:30:32 America/Chicago] Stripe Notice: Undefined property of Stripe_Object instance: status
+[11-Apr-2015 05:34:34 America/Chicago] Stripe Notice: Undefined property of Stripe_Object instance: status
+[13-Apr-2015 23:40:11 America/Chicago] PHP Fatal error:  Call to undefined method Stripe_Account::create() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 52
+[13-Apr-2015 23:45:19 America/Chicago] PHP Fatal error:  Call to undefined function Stripe_Account() in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 52
+[13-Apr-2015 23:45:39 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home3/codebrew/public_html/projects/gambay/stripe_test/Step1/index.php on line 54
+[13-Apr-2015 23:56:58 America/Chicago] PHP Fatal error:  Class 'Stripe' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 29
+[13-Apr-2015 23:57:33 America/Chicago] PHP Warning:  require_once(../stripe/lib/stripe.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 4
+[13-Apr-2015 23:57:33 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../stripe/lib/stripe.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 4
+[13-Apr-2015 23:58:41 America/Chicago] PHP Fatal error:  Class 'Stripe' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 29
+[14-Apr-2015 00:01:09 America/Chicago] PHP Fatal error:  Class 'Stripe_Charge' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 46
+[14-Apr-2015 00:27:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 60
+[14-Apr-2015 00:28:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 60
+[14-Apr-2015 00:28:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 60
+[14-Apr-2015 00:49:20 America/Chicago] PHP Fatal error:  Class 'Stripe\Customer' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 48
+[14-Apr-2015 00:51:12 America/Chicago] PHP Fatal error:  Class 'Stripe\Customer' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 47
+[14-Apr-2015 00:52:42 America/Chicago] PHP Fatal error:  Class 'Stripe\Account' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 57
+[14-Apr-2015 00:55:03 America/Chicago] PHP Fatal error:  Class 'Stripe\Customer' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 48
+[14-Apr-2015 00:55:45 America/Chicago] PHP Fatal error:  Class 'Stripe\Customer' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 48
+[14-Apr-2015 00:58:14 America/Chicago] PHP Fatal error:  Class 'Stripe\Account' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 47
+[14-Apr-2015 01:04:21 America/Chicago] PHP Warning:  require(/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:04:21 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:08:50 America/Chicago] PHP Warning:  require(/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:08:50 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:08:51 America/Chicago] PHP Warning:  require(/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:08:51 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:08:51 America/Chicago] PHP Warning:  require(/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:08:51 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:09:28 America/Chicago] PHP Warning:  require(/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:09:28 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:10:51 America/Chicago] PHP Fatal error:  Class 'Stripe\Account' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 46
+[14-Apr-2015 01:12:00 America/Chicago] PHP Warning:  require_once(../stripe/lib/init.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 4
+[14-Apr-2015 01:12:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../stripe/lib/init.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 4
+[14-Apr-2015 01:13:23 America/Chicago] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Account.php on line 6
+[14-Apr-2015 01:15:02 America/Chicago] PHP Warning:  require(/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:15:02 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Util.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe.php on line 17
+[14-Apr-2015 01:18:59 America/Chicago] PHP Fatal error:  Cannot redeclare class Stripe\Stripe in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Stripe/Stripe.php on line 6
+[14-Apr-2015 01:19:45 America/Chicago] PHP Warning:  require_once(../stripe/lib/Stripe/Stripe.php): failed to open stream: No such file or directory in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 5
+[14-Apr-2015 01:19:45 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../stripe/lib/Stripe/Stripe.php' (include_path='.:/opt/php54/lib/php') in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 5
+[14-Apr-2015 01:22:30 America/Chicago] PHP Fatal error:  Class 'Stripe_Charge' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 106
+[14-Apr-2015 01:32:44 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You cannot use a Stripe token more than once: tok_15rNb9HPiBMaAbxH5EzOyTSk' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, Array)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Charge.php(37): Stripe\ApiResource::_create(Array, Array)
+#5 /home3/ in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 01:33:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You cannot use a Stripe token more than once: tok_15rNbaHPiBMaAbxHIwg9fAHJ' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, Array)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Charge.php(37): Stripe\ApiResource::_create(Array, Array)
+#5 /home3/ in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 02:14:34 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Received unknown parameter: bank_accounts' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts/ac...', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(98): Stripe\ApiResource::_staticRequest('post', '/v1/accounts/ac...', Array, Object(Stripe\Util\RequestOptions))
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(146): Stripe\ApiResource->_request('post',  in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 02:25:40 America/Chicago] PHP Warning:  strlen() expects parameter 1 to be string, array given in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 61
+[14-Apr-2015 03:05:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 44
+[14-Apr-2015 03:06:01 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 52
+[14-Apr-2015 03:07:09 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 52
+[14-Apr-2015 03:07:29 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 52
+[14-Apr-2015 04:13:32 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 46
+[14-Apr-2015 04:51:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 53
+[14-Apr-2015 05:02:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 53
+[14-Apr-2015 05:11:01 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 269
+[14-Apr-2015 06:05:34 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid token id: tok_15rRrCHPiBMaAbxHbBs7alUX' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Account.php(39): Stripe\ApiResource::_create(Array, NULL)
+#5 /home3/codebrew/public_html/projec in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 06:06:21 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid token id: tok_15rRryHPiBMaAbxH1a50TmXB' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Account.php(39): Stripe\ApiResource::_create(Array, NULL)
+#5 /home3/codebrew/public_html/projec in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 06:08:42 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid token id: tok_15rRuEHPiBMaAbxHv6jL5JRN' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Account.php(39): Stripe\ApiResource::_create(Array, NULL)
+#5 /home3/codebrew/public_html/projec in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 06:13:07 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 79
+[14-Apr-2015 07:21:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$sth' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 48
+[14-Apr-2015 07:21:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$charge' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 49
+[14-Apr-2015 07:22:59 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You can only create new accounts if you've registered your platform, which you can do at https://dashboard.stripe.com/account/applications/settings.' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stri in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 07:24:56 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You can only create new accounts if you've registered your platform, which you can do at https://dashboard.stripe.com/account/applications/settings.' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stri in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 07:25:21 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You can only create new accounts if you've registered your platform, which you can do at https://dashboard.stripe.com/account/applications/settings.' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stri in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 07:26:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You can only create new accounts if you've registered your platform, which you can do at https://dashboard.stripe.com/account/applications/settings.' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stri in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 07:40:17 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Can only apply an application_fee when the request is made on behalf of another account (using an OAuth key, the Stripe-Account header, or the destination parameter).' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, Array)
+#4 /home3/codebrew/public_html/projects/gamba in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 07:41:47 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Can only apply an application_fee when the request is made on behalf of another account (using an OAuth key, the Stripe-Account header, or the destination parameter).' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, Array)
+#4 /home3/codebrew/public_html/projects/gamba in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 07:43:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Can only apply an application_fee when the request is made on behalf of another account (using an OAuth key, the Stripe-Account header, or the destination parameter).' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, Array)
+#4 /home3/codebrew/public_html/projects/gamba in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 08:19:37 America/Chicago] PHP Fatal error:  Call to undefined function json_enode() in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 82
+[14-Apr-2015 08:41:35 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Received unknown parameters: stripe_account, currency' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Account.php(39): Stripe\ApiResource::_create(Array, NULL)
+#5 /home3/codebrew/public_html in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 08:42:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Received unknown parameters: id, currency' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/accounts', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/accounts', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Account.php(39): Stripe\ApiResource::_create(Array, NULL)
+#5 /home3/codebrew/public_html/projects/ga in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 08:46:19 America/Chicago] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 78
+[14-Apr-2015 09:25:04 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You may pass the card param or the source param but not both' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Charge.php(37): Stripe\ApiResource::_create(Array, NULL)
+#5 /home3/codebrew/public_ in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[14-Apr-2015 09:31:43 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 71
+[14-Apr-2015 09:31:56 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 71
+[14-Apr-2015 10:20:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$pHttp_headers' (T_VARIABLE) in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 74
+[14-Apr-2015 10:26:46 America/Chicago] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 86
+[14-Apr-2015 10:58:21 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 97
+[14-Apr-2015 11:00:47 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 97
+[14-Apr-2015 11:15:27 America/Chicago] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/index.php on line 118
+[15-Apr-2015 02:46:56 America/Chicago] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'You cannot use a Stripe token more than once: tok_15rXNYHPiBMaAbxHCZCPyHtw' in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php:144
+Stack trace:
+#0 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(256): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php(107): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, Array)
+#4 /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/Charge.php(37): Stripe\ApiResource::_create(Array, Array)
+#5 /home3/ in /home3/codebrew/public_html/projects/gambay/stripe_lib/stripe/lib/ApiRequestor.php on line 144
+[16-Apr-2015 01:15:35 America/Chicago] PHP Fatal error:  Class 'Stripe\Account' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/bank_custom_form.php on line 11
+[16-Apr-2015 01:16:27 America/Chicago] PHP Fatal error:  Class 'Stripe\Stripe' not found in /home3/codebrew/public_html/projects/gambay/stripe_lib/Step1/bank_custom_form.php on line 7
