@@ -356,6 +356,42 @@ function toggleFlag(flag){
     $(".modal-body #itemid").val(subcatid);
 	   $(".modal-body #serving1").val(subserve);
 });
+
+		/*$('.user_del').on('click', function () {
+		
+		var item=$(this).attr('item');
+		var serving=$(this).attr('serving');
+	
+	dataConfirmModal.confirm({
+		        title: 'Are you sure?',
+		        text: 'Removing this will remove all related information',
+		        commit: 'Yes do it',
+		        cancel: 'Not really', 
+		
+		        onConfirm: function () {
+		            var event='delete-item-serving';
+
+			    $.post("functions.php",
+			    {
+			    event: event,
+			    item: item,
+				serving: serving
+			    },
+			    
+			    function(data){
+			    console.log(data);
+			    location.reload();
+			    }
+			    );   
+		           
+		           
+		        },
+		        onCancel: function () {
+		           
+		        }
+		    });
+		});*/
+		
 	   </script>
   </body>
   </html>
